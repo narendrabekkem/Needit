@@ -3,7 +3,11 @@
         <action_insert>false</action_insert>
         <action_update>false</action_update>
         <active>true</active>
-        <advanced_condition/>
+        <advanced_condition><![CDATA[answer = false;
+gs.info(current.u_requested_for.name+'=='+ event.parm1);
+if (current.u_requested_for.name != event.parm1) {
+answer=true;
+}]]></advanced_condition>
         <affected_field_on_event/>
         <category display_value="Needit" name="Needit">0f026dce97f2255081a6bb46f053afae</category>
         <collection>x_58872_needit_needit</collection>
@@ -25,7 +29,7 @@
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>x_58872_needit.notify_needit_submit</event_name>
         <event_parm_1>false</event_parm_1>
-        <event_parm_2>false</event_parm_2>
+        <event_parm_2>true</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
@@ -36,8 +40,13 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>&nbsp;</p>
-<p>${mail_script:Notifyuserforneeditsubmission}</p>]]></message_html>
+        <message_html><![CDATA[<p>${mail_script:Notifyuserforneeditsubmission}</p>
+<p>${event.parm1}</p>
+<p>${current.u_requested_for}</p>
+<p>${u_requested_for}</p>
+<p>${URI_REF}</p>
+<p>${u_requested_for.URI_REF}</p>
+<p>click ${NOTIF_UNSUB+link_text="here"} to unsubscribe from this notification</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Notify Needit Submission to Requestor</name>
@@ -59,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bdf0ad4e97f2255081a6bb46f053af58</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Notify Needit Submission to Requestor</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -67,9 +76,9 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_bdf0ad4e97f2255081a6bb46f053af58</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-15 17:30:35</sys_updated_on>
+        <sys_updated_on>2023-06-01 04:29:21</sys_updated_on>
         <sys_version>2</sys_version>
-        <template/>
+        <template display_value="Request Submitted">990184db978fa9d081a6bb46f053afab</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

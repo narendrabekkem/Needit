@@ -7,9 +7,39 @@
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>PUT</http_method>
         <name>NeeditUpdateMultipleFields</name>
-        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-
-    // implement resource here
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var number = request.pathParams.number;
+    var requestbody = request.body.data.detail;
+    var JSONobj = requestbody;
+    if (!requestbody) {
+        return new sn_ws_err.BadRequestError('no body in the request');
+    }
+    var gr = new GlideRecord('x_58872_needit_needit');
+    gr.addQuery('number', number);
+    gr.query();
+    gr.next();
+    if (gr.sys_id) {
+        for (var key in JSONobj) {
+            if (!(key == 'comments' || key == 'work_notes')) {
+                gr.setValue(key, JSONobj[key]);
+            } else if (key == 'comments') {
+                gr.comments = JSONobj.comments;
+            } else if (key == 'work_notes') {
+                gr.work_notes = JSONobj.work_notes;
+            }
+        }
+        gr.update();
+        if (!gr.getLastErrorMessage()) {
+            return ('record updated');
+        } else {
+            var error = new sn_ws_err.ServiceError();
+            error.setStatus(450);
+            error.setDetail(gr.getLastErrorMessage());
+            return error;
+        }
+    } else {
+        return new sn_ws_err.NotFoundError('could not find record');
+    }
 
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_58872_needit/v1/needit/updatemultiplefields/{number}</operation_uri>
@@ -25,14 +55,14 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-16 15:22:10</sys_created_on>
         <sys_id>9eb11a5e97b6a55081a6bb46f053af3a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>NeeditUpdateMultipleFields</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_9eb11a5e97b6a55081a6bb46f053af3a</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-16 15:22:44</sys_updated_on>
+        <sys_updated_on>2023-05-20 05:35:09</sys_updated_on>
         <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v1">7f61d12897f5611081a6bb46f053aff7</web_service_version>
     </sys_ws_operation>

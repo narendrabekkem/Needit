@@ -4,7 +4,7 @@
         <consumes>application/json,application/xml,text/xml</consumes>
         <consumes_customized>false</consumes_customized>
         <default_operation_uri/>
-        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <enforce_acl>b06c460797ae211081a6bb46f053af16</enforce_acl>
         <http_method>PUT</http_method>
         <name>needitput</name>
         <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
@@ -18,11 +18,19 @@
         var gr = new GlideRecord('x_58872_needit_needit');
         gr.addQuery('number', neednumber);
         gr.query();
+		if(!(gr.hasNext()))
+			{
+				return new sn_ws_err.NotFoundError('Could not update the record');
+			}
         while (gr.next()) {
             gr.setValue('short_description', shortdes);
             gr.assignment_group.setDisplayValue(assignment_group);
-            if (gr.canWrite()) {                
-            gr.update();			
+            if (gr.canWrite()) {
+                gr.update();
+				if (gr.getLastErrorMessage())
+					{
+						return new sn_ws_err.BadRequestError('Could not update the record');
+					}
             } else {
                 return new sn_ws_err.NotAcceptableError('You are not authorized to write in this record');
             }
@@ -33,7 +41,7 @@
             response.setBody(resp);
         }
     }
-    //return resp;
+    //return JSON.stringify(resp);
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_58872_needit/v1/needit/{number}</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -48,14 +56,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-18 18:08:32</sys_created_on>
         <sys_id>65024bdb9725211081a6bb46f053af58</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>needitput</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_65024bdb9725211081a6bb46f053af58</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-16 12:33:18</sys_updated_on>
+        <sys_updated_on>2023-05-26 14:07:06</sys_updated_on>
         <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v1">7f61d12897f5611081a6bb46f053aff7</web_service_version>
     </sys_ws_operation>
