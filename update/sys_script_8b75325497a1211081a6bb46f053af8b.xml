@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_58872_needit_needit</collection>
-        <condition/>
+        <condition>(current.u_when_needed==previous.u_when_needed)</condition>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition table="x_58872_needit_needit">u_request_typeVALCHANGES^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
@@ -30,20 +30,15 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-
     try {
-	
-        var reqdate =new NeeditLeadTimeSet();
-		var dateneeded= reqdate.setLeadtime(current.u_request_type);
+        var reqdate = new NeeditLeadTimeSet();
+        var dateneeded = reqdate.setLeadtime(current.u_request_type);
+		gs.addInfoMessage('setting adviced when needed basad on request type');
         //gs.addInfoMessage(dateneeded);
         current.u_when_needed = dateneeded;
-		
-		
     } catch (ex) {
         gs.addInfoMessage('error execting script include' + ex);
     }
-
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -51,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b75325497a1211081a6bb46f053af8b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Set Adviced When needed date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_8b75325497a1211081a6bb46f053af8b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 11:13:42</sys_updated_on>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-11 16:05:40</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

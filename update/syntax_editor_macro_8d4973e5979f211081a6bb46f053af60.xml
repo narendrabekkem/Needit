@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>Load default prototype for making Glide Ajax call</comments>
+        <name>AjaxCode</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-08 11:30:19</sys_created_on>
+        <sys_id>8d4973e5979f211081a6bb46f053af60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AjaxCode</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>syntax_editor_macro_8d4973e5979f211081a6bb46f053af60</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-08 11:37:47</sys_updated_on>
+        <text>var ga=new GlideAjax($ScriptInclude);&#13;
+	ga.addParam('sysparm_name','$Method');&#13;
+	ga.addParam('sysparm_requesttype',g_form.getValue('$param'));&#13;
+	ga.getXMLAnswer(callback);&#13;
+   //Type appropriate comment here, and begin script below&#13;
+   &#13;
+&#13;
+function callback(response){&#13;
+g_form.setValue('u_when_needed', response);&#13;
+}</text>
+    </syntax_editor_macro>
+</record_update>

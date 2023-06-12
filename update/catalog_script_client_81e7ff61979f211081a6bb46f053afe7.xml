@@ -8,50 +8,45 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request for need">c046c9d897f5211081a6bb46f053af34</cat_item>
-        <cat_variable>IO:34f60d109739211081a6bb46f053af8e</cat_variable>
+        <cat_variable>IO:0c4649dc97f5211081a6bb46f053afe5</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>SetEmailwhencallerisselected</name>
+        <name>Preset When Needed Date</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
-        return;
-    }
-    var ajax = new GlideAjax('GetEmailAddress');
-    ajax.addParam('sysparm_name', 'getEmail');
-    ajax.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
-    ajax.getXMLAnswer(setemail);
+   if (isLoading || newValue == '') {
+      return;
+   }
 
-    function setemail(response) {
-		//alert(response);
-		var responses=JSON.parse(response);
-        g_form.setValue('u_requested_for_email', responses.email_Address);
-		g_form.setValue('mobile_phone',responses.mobile_phone)
-		
-    }
-
-    //Type appropriate comment here, and begin script below
-
+	var ga=new GlideAjax('NeeditLeadTime');
+	ga.addParam('sysparm_name','getLeadTime');
+	ga.addParam('sysparm_requesttype',g_form.getValue('u_request_type'));
+	ga.getXMLAnswer(usedata);
+   //Type appropriate comment here, and begin script below
+   
+}
+function usedata(response){
+g_form.setValue('u_when_needed', response);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-05 09:38:05</sys_created_on>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-08 11:27:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>032979819746211081a6bb46f053af17</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>SetEmailwhencallerisselected</sys_name>
+        <sys_id>81e7ff61979f211081a6bb46f053afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Preset When Needed Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>catalog_script_client_032979819746211081a6bb46f053af17</sys_update_name>
+        <sys_update_name>catalog_script_client_81e7ff61979f211081a6bb46f053afe7</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-08 11:22:07</sys_updated_on>
+        <sys_updated_on>2023-06-08 11:27:11</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

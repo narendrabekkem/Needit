@@ -62,18 +62,25 @@ function restcall() {
     request.setBasicAuth(user, password);
     request.setRequestHeader("Accept", "application/json");
     var response = request.execute();
+
     var responsebody = response.getBody();
-    /*var objJSON = JSON.parse(responsebody);
-    var results = [];
-    var finalresult = {};
-    for (var i = 0; i < objJSON.result.length; i++) {
-        var incident = {};
-        incident['number'] = objJSON.result[i].number;
-        incident['category'] = objJSON.result[i].category;
-        results.push(incident);
+    var objJSON = JSON.parse(responsebody);
+    //     //     var results = [];
+    //     //     var finalresult = {};
+
+    //     for (var i = 0; i < objJSON.result.length; i++) {
+    //         var incident = {};
+    //         incident['number'] = objJSON.result[i].number;
+    //         incident['category'] = objJSON.result[i].category;
+    //         results.push(incident);
+    //     }
+    //     finalresult.incidents = results;
+    if (objJSON.result.length > 0) {
+        current.description = responsebody + '';
+    } else {
+        current.description = 'No incident for current requestor';
     }
-    finalresult.incidents = results;*/
-    current.description = responsebody + ''; //JSON.stringify(finalresult);
+    //JSON.stringify(finalresult);
     current.update();
     action.setRedirectURL(current);
 }]]></script>
@@ -87,7 +94,7 @@ function restcall() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>215d061697b6a55081a6bb46f053af39</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>FetchUserIncidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -95,7 +102,7 @@ function restcall() {
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ui_action_215d061697b6a55081a6bb46f053af39</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-29 17:36:37</sys_updated_on>
+        <sys_updated_on>2023-06-08 06:03:10</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

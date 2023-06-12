@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>description</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>x_58872_needit_needit</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-21 19:15:37</sys_created_on>
+        <sys_id>95a7d2de971aa11081a6bb46f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_override_95a7d2de971aa11081a6bb46f053af1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 19:15:37</sys_updated_on>
+    </sys_dictionary_override>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_dictionary_override_95a7d2de971aa11081a6bb46f053af1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>description</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>x_58872_needit_needit</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-21 19:15:37</sys_created_on>
+        <sys_id>95a7d2de971aa11081a6bb46f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_override_95a7d2de971aa11081a6bb46f053af1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 19:15:37</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>]]></payload>
+        <payload_hash>-131943272</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>27313a1a97baa55081a6bb46f053af61</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 17:39:21</sys_created_on>
+        <sys_id>50613a5a97baa55081a6bb46f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18825a52bd90000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 17:39:21</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>1c613a5abdbaa5508c88ad3a2b4cae28</update_guid>
+        <update_guid_history>1c613a5abdbaa5508c88ad3a2b4cae28:0,92c0ba96d9baa550eb3dd2355c948e64:-2080531098,a01604901a6e2110989d15789cbe6290:0,9875ccdc6e2e2110103c78f20466fcfe:-2080531098,7ceadf4c02e621107ea9d0250a0d4e0c:0,f5f993c886e6211084486989069e8542:-2080531098,3037534410e62110b52290b3657b79a4:0,b276d780a6e62110dab2984e16820131:-2080531098,32a7d2de7b1aa110aba507c9e152079a:647638234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-02 13:41:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>8ff12eac0c4c43ab8d6d908ce3b5a5b1</sys_id>
+        <sys_metadata>95a7d2de971aa11081a6bb46f053af1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Needit Requests">0e9a203d974321d081a6bb46f053af71</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_95a7d2de971aa11081a6bb46f053af1c</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_95a7d2de971aa11081a6bb46f053af1c">50613a5a97baa55081a6bb46f053af29</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-02 13:41:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
