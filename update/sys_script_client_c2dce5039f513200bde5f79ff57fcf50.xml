@@ -16,7 +16,6 @@
     if (isLoading && (g_form.isNewRecord()) && (g_form.getValue('u_requested_for_email')) || newValue === '' || newValue == oldValue) {
         return;
     }
-
     // Instantiate the GetEmailAddress Script Include 
     var getEmailAddr = new GlideAjax('GetEmailAddress');
     // Specify the getEmail method
@@ -30,18 +29,26 @@
         // Extract the email address from the response, clear any value from the email field, 
         // set new value in the email field
         var userob = JSON.parse(response);
+        // var userob = response;
         g_form.addInfoMessage('Inside call back');
         //g_form.clearMessages();
         //get reference with callback
         //g_form.getReference('u_requested_for', getusrname);       
         g_form.clearValue('u_requested_for_email');
         g_form.setValue('u_requested_for_email', userob.email_Address);
-        g_form.setValue('mobile_phone', userob.mobile_phone);
+        if (userob.mobile_phone) {
+            g_form.setValue('mobile_phone', userob.mobile_phone);
+        } else {
+            g_form.setValue('mobile_phone', '+1### ### ###');
+        }
+		getusrname(myCallback);
     }
-    function getusrname(obj) {
-        var name = obj.name;
-        myCallback(name);
+
+    function getusrname(func) {
+        var name = 'test var set for callback';
+        func(name);
     }
+
     function myCallback(response) {
         g_form.addInfoMessage(response);
     }
@@ -52,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2dce5039f513200bde5f79ff57fcf50</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_name>NeedIt Populate Email Field</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -60,7 +67,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_c2dce5039f513200bde5f79ff57fcf50</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-05 12:18:08</sys_updated_on>
+        <sys_updated_on>2023-06-26 18:24:52</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

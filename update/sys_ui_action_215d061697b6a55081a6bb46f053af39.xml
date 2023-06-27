@@ -47,9 +47,9 @@ if (typeof window == 'undefined' && current.u_requested_for.changes()) {
 function restcall() {
     var request = new sn_ws.RESTMessageV2();
     request.setQueryParameter('sysparm_query', 'caller_id=' + current.u_requested_for);
-    request.setQueryParameter('sysparm_fields', 'number,category');
-    request.setMIDServer('MID Server');
-    request.setEccParameter("skip_sensor", "true");
+    request.setQueryParameter('sysparm_fields', 'number,category,sys_class_name');
+    //request.setMIDServer('MID Server');
+    //request.setEccParameter("skip_sensor", "true");
     //request.setQueryParameter('sysparm_limit',10);
 
 
@@ -76,7 +76,7 @@ function restcall() {
     //     }
     //     finalresult.incidents = results;
     if (objJSON.result.length > 0) {
-        current.description = responsebody + '';
+        current.work_notes = 'User incidents \n' + responsebody + '';
     } else {
         current.description = 'No incident for current requestor';
     }
@@ -94,7 +94,7 @@ function restcall() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>215d061697b6a55081a6bb46f053af39</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>FetchUserIncidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -102,7 +102,7 @@ function restcall() {
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ui_action_215d061697b6a55081a6bb46f053af39</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-08 06:03:10</sys_updated_on>
+        <sys_updated_on>2023-06-19 18:45:08</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
