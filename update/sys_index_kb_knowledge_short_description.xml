@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>short_description</col_name_string>
+        <index_col_name element="short_description" name="kb_knowledge">bba56bf775b011108c8b143dd0c59fd6</index_col_name>
+        <logical_table_name>kb_knowledge</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-28 13:28:58</sys_created_on>
+        <sys_id>bb645fcc97fb211081a6bb46f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kb_knowledge</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_index_kb_knowledge_short_description</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:28:58</sys_updated_on>
+        <table display_value="Knowledge" name="kb_knowledge">77a56bf775b011108c8b143dd0c59fc8</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

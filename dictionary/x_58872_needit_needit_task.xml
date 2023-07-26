@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
-        <element label="NeedIt" max_length="32" name="u_needit" reference="x_58872_needit_needit" type="reference"/>
+    <element attributes="email_client=true" audit="true" db_object_id="6ae1970b97dd211081a6bb46f053af95" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element attributes="encode_utf8=false" label="Needit Task" max_length="32" name="needit_task" reference="x_58872_needit_needit_task" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="price" type="price"/>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_1" type="currency"/>
+        <element label="NeedIt" max_length="32" name="u_needit" reference="x_58872_needit_needit" reference_floats="true" type="reference"/>
     </element>
 </database>

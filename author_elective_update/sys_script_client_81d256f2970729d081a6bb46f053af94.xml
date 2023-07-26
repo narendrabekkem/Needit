@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Onload After NeeditStatescall</name>
+        <order>250</order>
+        <script><![CDATA[function onLoad() {
+    g_form.addInfoMessage(g_form.getValue('short_description'));
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-30 14:59:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81d256f2970729d081a6bb46f053af94</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Onload After NeeditStatescall</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_81d256f2970729d081a6bb46f053af94</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-30 16:03:07</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_script_client_81d256f2970729d081a6bb46f053af94</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Onload After NeeditStatescall&lt;/name&gt;&lt;order&gt;250&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    g_form.addInfoMessage(g_form.getValue('short_description'));
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;narendranath.reddy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-30 14:59:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;81d256f2970729d081a6bb46f053af94&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Onload After NeeditStatescall&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_81d256f2970729d081a6bb46f053af94&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;narendranath.reddy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-30 16:03:07&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1933691591</payload_hash>
+        <record_name>Onload After NeeditStatescall</record_name>
+        <reverted_from/>
+        <source>bb8433d097f6291081a6bb46f053af8e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-30 16:03:07</sys_created_on>
+        <sys_id>0b916e72978729d081a6bb46f053aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886d66182b0000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-30 16:03:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cf916e72228729d030bc9aa3204bbff5</update_guid>
+        <update_guid_history>cf916e72228729d030bc9aa3204bbff5:1933691591,9bc02a32688729d0370c102d8458e21d:1110777530,d5c0e2be664729d081de60abeddd43d8:-1683196168,b1a0a232fe8729d0152f0f6985b18dc7:-2011687541,6660a2be6b4729d0081cb07cc003a7f6:453844107,b940ee7e954729d0c498832176d39770:434177893,a4ff1abec74729d031e5f18098c15b80:942698306,196f9ebac04729d03ffa27cb51df0e11:888284365,113f1e3a964729d08bcab1bf6afface7:2043374208,9c0f563e594729d043cd6dabcc017afa:1101976397,91079a7e780729d023ac3f3c228febf3:-393707451,3a3396726a0729d0036fab40f1162dc2:1437775538,bef25a76960729d0c24bab82636681f8:-1182943111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-30 16:11:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>a2b8088b31224cb3ae524d0d36986249</sys_id>
+        <sys_metadata>81d256f2970729d081a6bb46f053af94</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onload After NeeditStatescall</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">0749c7522fb4a1100169a1fef699b62c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_81d256f2970729d081a6bb46f053af94</sys_update_name>
+        <sys_update_version display_value="sys_script_client_81d256f2970729d081a6bb46f053af94">0b916e72978729d081a6bb46f053aff6</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-30 16:11:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

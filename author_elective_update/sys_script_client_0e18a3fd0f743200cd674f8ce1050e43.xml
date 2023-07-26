@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>NeedIt onChange Example</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if ((isLoading && oldValue == newValue) || newValue === '') {
+        return;
+    }
+    g_form.addInfoMessage(g_scratchpad.NeeditStatex.Awaiting_Approval);
+	g_form.addInfoMessage(g_scratchpad.NeeditStateModel.Awaiting_Approval);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-08 16:54:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e18a3fd0f743200cd674f8ce1050e43</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>NeedIt onChange Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_0e18a3fd0f743200cd674f8ce1050e43</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-12 18:54:24</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_script_client_0e18a3fd0f743200cd674f8ce1050e43</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt onChange Example&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if ((isLoading &amp;&amp; oldValue == newValue) || newValue === '') {
+        return;
+    }
+    g_form.addInfoMessage(g_scratchpad.NeeditStatex.Awaiting_Approval);
+	g_form.addInfoMessage(g_scratchpad.NeeditStateModel.Awaiting_Approval);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-02-08 16:54:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0e18a3fd0f743200cd674f8ce1050e43&lt;/sys_id&gt;&lt;sys_mod_count&gt;51&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt onChange Example&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0e18a3fd0f743200cd674f8ce1050e43&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;narendranath.reddy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-12 18:54:24&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1014535635</payload_hash>
+        <record_name>NeedIt onChange Example</record_name>
+        <reverted_from/>
+        <source>bb8433d097f6291081a6bb46f053af8e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-12 18:54:24</sys_created_on>
+        <sys_id>fa75c6c3979b291081a6bb46f053aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b0f594a50000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-12 18:54:24</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b275c6c3299b291059a4f5b5c62520f9</update_guid>
+        <update_guid_history>b275c6c3299b291059a4f5b5c62520f9:1014535635,68558ac3b59b29108fe541d85a2cf327:1689381033,35634ecf785b29108f977f73e601126b:1514131416,e5f0c68b6f5b29105a0908242b99a363:1339519138,16b08e0b705b29106ab0b4490b143925:112953218,9ca8a7656d1f21101fceb64efe1fbfcf:1936101090,e998e7a5ec1f2110488c4229fc832568:1608675564,4d86e361af1f2110471831d03d0ce308:1744818679,c0a3b6e1899721101a06f46916607577:720170037,df8b59853c53211041e3628f449b70c2:-965458522,605b51853d5321102a5af31e568986fc:1351688966,241a48a37f4f2dd0a313a1b04ed46ef3:-1765037146,f10ac0a3ce4f2dd040ab1c2751fc46c1:-1769970640,4f99c423f34f2dd04119519427408ce8:1816541197,2099c423f04f2dd05ee38a152f9bfae4:-1656135765,b9ccd2d737032dd0ccde2fa4b1cd88cc:-1099492946,fb56f63ae10b29d0756a3d68068b4ace:847389006,89b3feb22b0b29d0b20a03553ce0ab69:1169976239,aa93fa36b60b29d0e79aeede2e2b154a:-1345922494,c424e636fe8729d0e1a2797fc022a804:985414050,93e26ef29e8729d0f1e42aa506ca7aed:-1805172913,4962ee72fb8729d05f84eff7ae79894f:-1074100210,9b522ef2458729d0185c77d8a2000e4c:-1099492946,52c16e72178729d08df0bcadbf409a88:1169976239,4a716e72928729d0392d45efebcec4f1:-1805172913,57cab56ea1c3a5d014aeeced41946423:2030155985,8b61be5a48baa550e4b6ffb497b26c89:0,f4a0ba5669baa5506aa2a1b7dad26805:-1328326006,5021bcd623fa655087ca4b42e22300b8:836111870,9f11741a5afa655016c9a1b114cde784:2030155985,1d00b49675fa655033cd1b1115297c73:-1159656848,0eaf6456a8fa655031f764e48606be14:-1823916044,dc8f64567cfa655012c35bebbc17d8bb:1350756494,0f7f205234fa65508bd0421f70776684:-2082295909,c4010424f1ba2910c049c64f4b325035:-821590407,8f8d3448adb66510ee8d4c6052d4248d:1980743014,2942b0040e766510ee893ccb1e9661b2:1565057551,d501f4405276651037a4c3f798bf04b8:-1637839849,6aaf2c4c92366510bfb325bbad2e9dc7:-853251869,a12f6cc8e6366510463adf4141c9be09:-1417958141,a9ee2c0cb43665107d98d6d3635d09c0:-1345033667,25adacc4fb36651020463bf5588ab367:1222191290,b9db6cc4163665106a828206b546555a:-292430447,0b4b2c840e36651035a3932af6679640:-238475602,739ae44466366510384dbc2adc073e6a:9038308,228a2444b63665100ef1469a4177e9bd:-1787474761,e8f19b0b09dd21109ae37c093e376677:0,9db6ec1374c5611087f0cf6e9ac99750:0,480d9b11a7056d10b75748c6ddf26b80:-1899391867,c08cd39d6dc16d10a9eb9b9038b9bda1:705357106,4e623076e6b8e1103cfda47c72e89318:0,15694f527cb4a110b3045a959e816614:0,d4a8c712cfb4a1101a4ebf6fcfb3ee1e:-1905346353,a73bbe92ce74a110529c8db99e29b387:0,7b8afa520174a11040892fdc5e1f4db6:0,5c99f2127b74a110b7df15f5296aa80c:2021986554,dc8f22968d34a110168b58a3433a4d78:0,9a5d66d2b134a110e7677a24e3a9fbe8:0,82daaadeb4f0a11000e1d71c63055f5e:-1905346353,899aa2de26f0a11046a51b984c4ed4ea:0,45e5cafed2e8e91027ab338ed0e15d5d:0,0dbd7df683e8e910963280ffb630540c:0,f03cb57680e8e910d03ca73e0001ba8f:-1905346353,f6712fea01a0e9106fc083ea80f350c7:0,5c43a40199606510259a67bb93772086:0,0079e0148ea4a110e201aeb63c84d638:0,6aaac8d48c24a110432a276e60c120d5:0,4fbff50cf72c6110b7afd0a702b6ceb3:-1905346353,99dd0f778890611036642d7e41c8bfa4:0,e88f3e524958a1105563d030e2495f8b:0,2d1f3252f958a110a29e69434ab43565:-1905346353,7b1ef6de0b18a11021398eb7698c0c88:0,278a19ce1514611054f789b172d17e84:439558363,08979d8e01146110c276ad74d39b18af:-1908732216,41d63842b7d06110e263509329c7578f:0,43867c02e1d061102aaeaefd01b2815b:-1905346353,76e5b00203d061103d136f1bfd02f96e:42967543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-12 18:58:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>53bba094c3ed4f22ad9895115df6e619</sys_id>
+        <sys_metadata>0e18a3fd0f743200cd674f8ce1050e43</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt onChange Example</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">0749c7522fb4a1100169a1fef699b62c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_0e18a3fd0f743200cd674f8ce1050e43</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0e18a3fd0f743200cd674f8ce1050e43">fa75c6c3979b291081a6bb46f053aff9</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-12 18:58:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

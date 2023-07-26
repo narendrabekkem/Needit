@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create Needit Record</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var jsonbody = request.body.data.detail;
+    if (!jsonbody) {
+        var err = new sn_ws_err.ServiceError();
+        err.setDetail('Body for the request is null');
+        err.setStatus(404);
+        return err;
+    }
+    //var jsonbody=JSON.parse(body);
+    var ngr = new GlideRecord('x_58872_needit_needit');
+    gs.info('Needit Create Rest API triggered');
+    ngr.initialize();
+    ngr.u_requested_for = jsonbody.u_requested_for;
+    ngr.u_requested_for_email = ngr.u_requested_for.email;
+    ngr.u_request_type = jsonbody.u_request_type;
+    ngr.u_what_needed = jsonbody.u_what_needed;
+    // 			for (var key in jsonbody)
+    // 			{
+    // 				ngr.setValue(key,jsonbody[key]);
+    // 			}
+    ngr.insert();
+    if (ngr.getLastErrorMessage()) {
+        return ngr.getLastErrorMessage();
+    }
+    var record = {number:ngr.getValue('number'), user:ngr.u_requested_for.name};
+    //return record;
+    response.setBody(record);
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_58872_needit/v1/needit/create</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-11 14:50:36</sys_created_on>
+        <sys_id>c8f348b6979f651081a6bb46f053af9c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Create Needit Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ws_operation_c8f348b6979f651081a6bb46f053af9c</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:01:52</sys_updated_on>
+        <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
+        <web_service_version display_value="v1">7f61d12897f5611081a6bb46f053aff7</web_service_version>
+    </sys_ws_operation>
+</record_update>
