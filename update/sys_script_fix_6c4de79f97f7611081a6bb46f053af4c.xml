@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Get Incidents that are created for Admin users</description>
+        <name>Get Incidents that are created for Admin</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[//Incidents recorded for admin users
+var gr=new GlideRecord('incident');
+var sq=gr.addJoinQuery('sys_user_has_role','caller_id','user');
+sq.addCondition('role.name','admin');
+gr.query();
+while(gr.next())
+{
+    gs.info(gr.number+': '+gr.caller_id.name);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-07-08 17:42:10</sys_created_on>
+        <sys_id>6c4de79f97f7611081a6bb46f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Incidents that are created for Admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_fix_6c4de79f97f7611081a6bb46f053af4c</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-07-08 17:42:10</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

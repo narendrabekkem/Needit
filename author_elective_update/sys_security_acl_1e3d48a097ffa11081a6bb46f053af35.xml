@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for complete in x_58872_needit_needit, if the ACL script returns true.</description>
+        <name>x_58872_needit_needit.complete</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = false;
+
+
+if (gs.hasRole('admin')) {
+    answer = true;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-29 12:38:16</sys_created_on>
+        <sys_id>1e3d48a097ffa11081a6bb46f053af35</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_58872_needit_needit.complete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_1e3d48a097ffa11081a6bb46f053af35</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:44:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_security_acl_1e3d48a097ffa11081a6bb46f053af35</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow write for complete in x_58872_needit_needit, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_58872_needit_needit.complete&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = false;
+
+
+if (gs.hasRole('admin')) {
+    answer = true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;narendranath.reddy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 12:38:16&lt;/sys_created_on&gt;&lt;sys_id&gt;1e3d48a097ffa11081a6bb46f053af35&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_58872_needit_needit.complete&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_1e3d48a097ffa11081a6bb46f053af35&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;narendranath.reddy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 12:44:19&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1224725196</payload_hash>
+        <record_name>x_58872_needit_needit.complete</record_name>
+        <reverted_from/>
+        <source>bb8433d097f6291081a6bb46f053af8e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-29 12:44:20</sys_created_on>
+        <sys_id>6bc35ca09733e11081a6bb46f053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189072ee0e00000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:44:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>23c35ca04c33e11015545e6ef98a6207</update_guid>
+        <update_guid_history>23c35ca04c33e11015545e6ef98a6207:1224725196,375350200433e11010e63ab7c75f5a68:1943950055,d4135060f133e11046179030fc024f6d:157980968,91d21c204c33e110e71c011ce87c49d0:1281442330,20a218207633e110ab887814a1658f9c:1908964605,76621068b2ffa11008b411602241e9fd:1456631095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-06-29 12:44:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>16d98e2e92d646209fdfa5405da6b100</sys_id>
+        <sys_metadata>1e3d48a097ffa11081a6bb46f053af35</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit.complete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="% Complete">9f417e1a97baa55081a6bb46f053afb2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1e3d48a097ffa11081a6bb46f053af35</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1e3d48a097ffa11081a6bb46f053af35">6bc35ca09733e11081a6bb46f053af07</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:44:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

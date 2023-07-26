@@ -31,9 +31,9 @@
     if (ngr.getLastErrorMessage()) {
         return ngr.getLastErrorMessage();
     }
-    var record = ngr.getValue('number');
-    return record;
-    //response.setBody(record);
+    var record = {number:ngr.getValue('number'), user:ngr.u_requested_for.name};
+    //return record;
+    response.setBody(record);
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_58872_needit/v1/needit/create</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -48,14 +48,14 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-11 14:50:36</sys_created_on>
         <sys_id>c8f348b6979f651081a6bb46f053af9c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Create Needit Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_c8f348b6979f651081a6bb46f053af9c</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-14 12:05:27</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:01:52</sys_updated_on>
         <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v1">7f61d12897f5611081a6bb46f053aff7</web_service_version>
     </sys_ws_operation>

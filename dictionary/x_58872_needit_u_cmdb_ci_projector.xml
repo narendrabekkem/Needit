@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca8242d197ccf11081a6bb46f053aff5" extends="cmdb_ci_hardware" label="Projector" max_length="40" name="x_58872_needit_u_cmdb_ci_projector" type="collection">
+        <element label="sensor" max_length="40" name="u_sensor" type="string"/>
+    </element>
+</database>

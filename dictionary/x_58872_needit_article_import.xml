@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d4190f8897bb211081a6bb46f053afd8" extends="sys_import_set_row" label="article_import" max_length="40" name="x_58872_needit_article_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ARTICLETITLE" label="ARTICLETITLE" max_length="40" name="u_articletitle" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=REFERENCE" label="REFERENCE" max_length="36313" name="u_reference" type="string"/>
+    </element>
+</database>
