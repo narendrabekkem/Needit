@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_id>6c31f84c0f0232000d030dbce1050ea2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_needit_task">e031f84c0f0232000d030dbce1050ea0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6c31f84c0f0232000d030dbce1050ea2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_task_user" name="x_58872_needit.needit_task_user">d431740c0f0232000d030dbce1050e47</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_security_acl_role_6c31f84c0f0232000d030dbce1050ea2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_id>6c31f84c0f0232000d030dbce1050ea2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_needit_task">e031f84c0f0232000d030dbce1050ea0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6c31f84c0f0232000d030dbce1050ea2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_task_user" name="x_58872_needit.needit_task_user">d431740c0f0232000d030dbce1050e47</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-2035270610</payload_hash>
+        <record_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</record_name>
+        <reverted_from/>
+        <source>27313a1a97baa55081a6bb46f053af61</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 17:39:35</sys_created_on>
+        <sys_id>ef61fe5a97baa55081a6bb46f053afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18825a560b30000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 17:39:35</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ab61fe5a83baa55042cf3cdd8270d8df</update_guid>
+        <update_guid_history>ab61fe5a83baa55042cf3cdd8270d8df:0,f4d032d6babaa5509837cae247e1956b:1509068946,b8f19b0b0ddd2110c832aaf56e0803df:0,b75c82c125412d1049f3a1644d29a8c6:1509068946,93623076a5b8e11000fc8a2334765bf2:0,f1694f5273b4a1101fb27422d0cdf56f:0,e9b88b12cfb4a11006a41f9dbfcaddf9:1509068946,d44bbe927374a110a76991b6e0818ff8:0,209a3e523774a110a394341e1edbee61:0,7089bede9734a11042be3ee96dcadfeb:-1435699886,708f22961f34a110b77c086a4d49b2de:0,0b5da6d26834a1109dc50ec46f16305f:0,1beaeede42f0a110719b1dac86aebc01:1509068946,ad9ae2de3ef0a110c656adadc9c8829b:0,e7d50afea2e8e9104606275103af4efe:1509068946,bdbd7df66ce8e910110379d75e2258a7:0,934c3d7666e8e9107d2aca8dfe373005:1509068946,17716fea4fa0e9104b7225158dc21f41:0,7c43a40130606510258c9777d21413d4:0,bc79e01406a4a110429ca20195346eb9:-2035270610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_58872_needit_needit_task.x_58872_needit.needit_task_user">bbe941db97ac7d1081a6bb46f053af7f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-14 12:31:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3279ffdc03c54b66b02b773c830e15e4</sys_id>
+        <sys_metadata>6c31f84c0f0232000d030dbce1050ea2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit_task">e031f84c0f0232000d030dbce1050ea0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6c31f84c0f0232000d030dbce1050ea2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6c31f84c0f0232000d030dbce1050ea2">ef61fe5a97baa55081a6bb46f053afdf</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-08-14 12:31:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

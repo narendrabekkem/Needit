@@ -29,6 +29,7 @@
             var error = new sn_ws_err.ServiceError();
             error.setStatus(450);
             error.setDetail(gr.getLastErrorMessage());
+			error.setMessage('Unable to update the record');
             return error;
         }
     } else {
@@ -36,7 +37,7 @@
     }
 
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_58872_needit/v1/needit/updatemultiplefields/{number}</operation_uri>
+        <operation_uri>/api/x_58872_needit/v1/needitapi/updatemultiplefields/{number}</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <relative_path>/updatemultiplefields/{number}</relative_path>
@@ -49,15 +50,15 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-16 15:22:10</sys_created_on>
         <sys_id>9eb11a5e97b6a55081a6bb46f053af3a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>NeeditUpdateMultipleFields</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_9eb11a5e97b6a55081a6bb46f053af3a</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-19 18:19:10</sys_updated_on>
-        <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
+        <sys_updated_on>2023-08-15 17:02:08</sys_updated_on>
+        <web_service_definition display_value="Needit API">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v1">7f61d12897f5611081a6bb46f053aff7</web_service_version>
     </sys_ws_operation>
 </record_update>

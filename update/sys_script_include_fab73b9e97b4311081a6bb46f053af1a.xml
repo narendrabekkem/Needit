@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeeditStateUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NeeditStateUtil</name>
+        <script><![CDATA[function NeeditStateUtil(){
+
+NeeditStateUtil.Requested = 13;
+NeeditStateUtil.Awaiting_Approval = 14;
+NeeditStateUtil.Approved = 15;
+NeeditStateUtil.Awaiting_Feedback = 16;
+NeeditStateUtil.Closed_Complete = 3;
+NeeditStateUtil.Withdrawn = 5;
+}
+// 	switch (state)
+// 		{
+// 			case 'Requested':return 13;
+// 			case 'Awaiting_Approval': return 14;
+// 			case 'Approved':return 15;
+// 			case 'Awaiting_Feedback' : return 16;
+// 			case 'Closed_Complete' : return 3;
+// 			case 'Withdrawn' :return 5;
+// 		}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-24 08:53:53</sys_created_on>
+        <sys_id>fab73b9e97b4311081a6bb46f053af1a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NeeditStateUtil</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_fab73b9e97b4311081a6bb46f053af1a</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-04 12:36:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

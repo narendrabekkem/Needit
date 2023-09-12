@@ -5,13 +5,16 @@
         <element label="Mean Duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Phone" max_length="40" name="mobile_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="More Info" max_length="4000" name="more_info" type="journal_input"/>
         <element attributes="encode_utf8=false" dependent="u_requested_for" dependent_on_field="u_requested_for" label="Roles" max_length="32" name="roles" reference="sys_user_role" reference_floats="true" reference_qual="javascript: new GetRolesofUser().Getroles(current.u_requested_for)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element label="SLA Schedule" max_length="40" name="sla_schedule" reference="cmn_schedule" type="reference"/>
         <element label="Stage" max_length="80" name="stage" type="workflow"/>
+        <element label="Sub Stage" max_length="80" name="sub_stage" type="workflow"/>
+        <element function_definition="glidefunction: datediff( sys_updated_on,sys_created_on)" function_field="true" label="Time Elapsed from submit and last updated" max_length="40" name="time_elapsed_from_submit_and_last_updated" read_only="true" type="glide_duration"/>
         <element attributes="allow_references=true" dependent="u_table_name_1" dependent_on_field="u_table_name_1" label="Field Name" max_length="80" name="u_field_name" type="field_name" use_dependent_field="true"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Needit Requests" max_length="1024" name="u_needit_list" reference="x_58872_needit_needit" reference_qual="javascript: 'u_requested_for='+current.u_requested_for;" type="glide_list" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter, ref_ac_columns=email;first_name;manager,ref_ac_columns_search=true,tree_picker=true" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter, ref_ac_columns=email;first_name;manager,ref_ac_columns_search=true,tree_picker=true" dynamic_ref_qual="ed7444229778311081a6bb46f053af30" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" reference_qual="javascript:new x_58872_needit.NeeditUsers().getNeeditUsers()" type="reference" use_dependent_field="true" use_reference_qualifier="dynamic"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>

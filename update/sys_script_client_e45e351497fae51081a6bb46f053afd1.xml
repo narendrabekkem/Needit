@@ -17,9 +17,9 @@
 	//g_form.addInfoMessage(g_scratchpad.NeeditStateModel);
     function callback(response) {
 		if (response)
-			jslog('StateUtil is called via glideajax');
+		jslog('StateUtil is called via glideajax');
 		//g_form.addInfoMessage(response);
-        g_scratchpad.NeeditStatex=JSON.parse(response);
+        g_scratchpad.NeeditStatex= JSON.parse(response);
        // g_form.setValue('short_description', response);
     }
 }
@@ -34,7 +34,7 @@ g_scratchpad.calling=function(msg){g_form.addInfoMessage(msg);};
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e45e351497fae51081a6bb46f053afd1</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>Fetch the list of available states</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -42,7 +42,7 @@ g_scratchpad.calling=function(msg){g_form.addInfoMessage(msg);};
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_e45e351497fae51081a6bb46f053afd1</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-06-21 18:16:41</sys_updated_on>
+        <sys_updated_on>2023-08-26 06:40:00</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

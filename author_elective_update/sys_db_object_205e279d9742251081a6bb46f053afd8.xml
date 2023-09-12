@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>x_58872_needit_m2m_NeedIts_NeedIt Tasks</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_58872_needit_m2m_x_58872_need_x_58872_need</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-06 12:44:36</sys_created_on>
+        <sys_id>205e279d9742251081a6bb46f053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit M2m X 58872 Need X 58872 Need</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_object_205e279d9742251081a6bb46f053afd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-06 12:44:36</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_db_object_205e279d9742251081a6bb46f053afd8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>x_58872_needit_m2m_NeedIts_NeedIt Tasks</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_58872_needit_m2m_x_58872_need_x_58872_need</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-06 12:44:36</sys_created_on>
+        <sys_id>205e279d9742251081a6bb46f053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit M2m X 58872 Need X 58872 Need</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_object_205e279d9742251081a6bb46f053afd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-06 12:44:36</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>-807526943</payload_hash>
+        <record_name>x_58872_needit_m2m_NeedIts_NeedIt Tasks</record_name>
+        <reverted_from/>
+        <source>27313a1a97baa55081a6bb46f053af61</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 17:39:05</sys_created_on>
+        <sys_id>5851fe1a97baa55081a6bb46f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18825a4eaf00000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 17:39:05</sys_updated_on>
+        <type>Table</type>
+        <update_guid>5451fe1a1cbaa5504255cec2401d028b</update_guid>
+        <update_guid_history>5451fe1a1cbaa5504255cec2401d028b:0,f7e0fad698baa5506e7fea536dbf89ca:619029815,51068c50f36e2110c43410207262f99f:0,c6858810276e21107ff41768a1f73797:619029815,05da1b4c4ee62110bdd60ea3931c447b:0,341a9fc877e6211098174a3bfa016782:619029815,c1275b0498e621108c2bdf3a569bee5f:0,9196d3c055e621104958b39c603ec64a:619029815,ac5e635198822510efbf5152fa830ad3:-1677255997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-07-26 16:36:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>2a80fb2072fb4af69f1ddee47e81af59</sys_id>
+        <sys_metadata>205e279d9742251081a6bb46f053afd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit M2m X 58872 Need X 58872 Need</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_db_object_205e279d9742251081a6bb46f053afd8</sys_update_name>
+        <sys_update_version display_value="sys_db_object_205e279d9742251081a6bb46f053afd8">5851fe1a97baa55081a6bb46f053af8b</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:36:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

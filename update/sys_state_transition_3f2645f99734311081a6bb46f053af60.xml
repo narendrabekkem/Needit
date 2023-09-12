@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition">
+    <sys_state_transition action="INSERT_OR_UPDATE">
+        <description/>
+        <enter_condition table="x_58872_needit_needit">approval=approved^EQ<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </enter_condition>
+        <exit_condition/>
+        <order/>
+        <state>3</state>
+        <state_label>Closed Complete</state_label>
+        <state_model display_value="Needit State Flow">bd7ba9569784711081a6bb46f053af8e</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-22 06:40:02</sys_created_on>
+        <sys_id>3f2645f99734311081a6bb46f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed Complete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_state_transition_3f2645f99734311081a6bb46f053af60</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-08-22 06:40:02</sys_updated_on>
+        <terminal_state>false</terminal_state>
+    </sys_state_transition>
+</record_update>

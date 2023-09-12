@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c69c009597d0f51081a6bb46f053afca" label="needit_needittask_m2m_NeedIts_NeedIt Tasks" max_length="40" name="x_58872_needit_needit_needittask_m2m" type="collection">
+        <element attributes="encode_utf8=false" label="NeedIts" max_length="32" name="x_58872_needit_needit" reference="x_58872_needit_needit" reference_floats="true" type="reference"/>
+        <element attributes="encode_utf8=false" label="NeedIt Tasks" max_length="32" name="x_58872_needit_needit_task" reference="x_58872_needit_needit_task" type="reference"/>
+        <index name="index">
+            <element name="x_58872_needit_needit"/>
+        </index>
+        <index name="index2">
+            <element name="x_58872_needit_needit_task"/>
+        </index>
+    </element>
+</database>

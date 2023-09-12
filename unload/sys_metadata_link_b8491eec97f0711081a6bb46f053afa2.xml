@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>287ebd7da9fe198100f92cc8d1d2154e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center display_value="IT">d9d0a971c0a80a641c20b13d99a48576</cost_center>
+        <default_assignee display_value="Don Goodliffe">9ee1b13dc6112271007f9d0efdb69cd0</default_assignee>
+        <description/>
+        <email>network@example.com</email>
+        <exclude_manager>false</exclude_manager>
+        <hourly_rate>0</hourly_rate>
+        <include_members>false</include_members>
+        <manager display_value="Bow Ruggeri">f298d2d2c611227b0106c6be7f154bc8</manager>
+        <name>Network</name>
+        <parent/>
+        <roles/>
+        <source/>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2020-06-10 02:02:08</sys_created_on>
+        <sys_id>287ebd7da9fe198100f92cc8d1d2154e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 15:11:57</sys_updated_on>
+        <type/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-18 15:30:12</sys_created_on>
+        <sys_id>b8491eec97f0711081a6bb46f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_b8491eec97f0711081a6bb46f053afa2</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-08-18 15:30:12</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

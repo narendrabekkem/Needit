@@ -9,7 +9,10 @@
         <name>NeeditLeadTimeSet</name>
         <script><![CDATA[var NeeditLeadTimeSet = Class.create();
 NeeditLeadTimeSet.prototype = {
-    initialize: function() {		
+    initialize:function () {
+		this.variable1='variable1';
+		this.variable2='variable2';
+		this.variable3='variable3';
 	},
     setLeadtime: function(request_type) {
         var today = new GlideDateTime();		
@@ -27,7 +30,7 @@ NeeditLeadTimeSet.prototype = {
             //leadedtime = today.getDisplayValue();
             return today;
         } else {
-            return;
+            return this.variable1+this.variable2+this.variable3 ;
         }
     },
     type: 'NeeditLeadTimeSet'
@@ -36,13 +39,13 @@ NeeditLeadTimeSet.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-15 05:24:19</sys_created_on>
         <sys_id>4176781e97eda51081a6bb46f053afd0</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>NeeditLeadTimeSet</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_4176781e97eda51081a6bb46f053afd0</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-07-17 05:26:42</sys_updated_on>
+        <sys_updated_on>2023-08-31 05:20:54</sys_updated_on>
     </sys_script_include>
 </record_update>

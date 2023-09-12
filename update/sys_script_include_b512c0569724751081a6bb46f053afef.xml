@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeeditFunctions</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NeeditFunctions</name>
+        <script><![CDATA[function NeeditStatesObject() {
+//setting object values for function
+    this.states = {
+        'Requested': 13,
+        'Awaiting_Approval': 14,
+        'Approved': 15,
+        'Awaiting_Feedback': 16,
+        'Closed_Complete': 3,
+        'Withdrawn': 5
+    };
+	
+//creating variable in the function
+    var States = {
+        'Requested': 13,
+        'Awaiting_Approval': 14,
+        'Approved': 15,
+        'Awaiting_Feedback': 16,
+        'Closed_Complete': 3,
+        'Withdrawn': 5
+    };
+    return JSON.stringify(States);
+}
+//Second function in script include which can be invoked by using gs.include('NeeditFunctions') and using NeeditState();
+function NeeditState(state) {
+    switch (state) {
+        case 'Requested':
+            return 13;
+        case 'Awaiting_Approval':
+            return 14;
+        case 'Approved':
+            return 15;
+        case 'Awaiting_Feedback':
+            return 16;
+        case 'Closed_Complete':
+            return 3;
+        case 'Withdrawn':
+            return 5;
+    }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-11 04:43:49</sys_created_on>
+        <sys_id>b512c0569724751081a6bb46f053afef</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>NeeditFunctions</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_b512c0569724751081a6bb46f053afef</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-04 16:07:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

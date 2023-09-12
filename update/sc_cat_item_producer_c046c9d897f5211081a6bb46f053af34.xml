@@ -25,7 +25,7 @@
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
-        <meta/>
+        <meta>Need, Something</meta>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
@@ -72,8 +72,9 @@
         <sc_ic_version/>
         <sc_template/>
         <script><![CDATA[//current.setValue('u_requested_for_email','dummy@example.com');
-var curshortdesc= current.short_description;
-current.setValue('short_description', curshortdesc+" ::: "+producer.additional_info_just_as_place_holder);
+current.short_description+=producer.additional_info_just_as_place_holder;
+if (!producer.assignment_group)
+current.assignment_group.setDisplayValue('NeedIt Users');
 //current.u_requested_for_email=current.u_requested_for.email;]]></script>
         <short_description>Request for need</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -83,16 +84,16 @@ current.setValue('short_description', curshortdesc+" ::: "+producer.additional_i
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-21 11:40:40</sys_created_on>
         <sys_id>c046c9d897f5211081a6bb46f053af34</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Request for need</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sc_cat_item_producer_c046c9d897f5211081a6bb46f053af34</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-08 11:57:11</sys_updated_on>
+        <sys_updated_on>2023-09-04 05:17:09</sys_updated_on>
         <table_name>x_58872_needit_needit</table_name>
-        <taxonomy_topic/>
+        <taxonomy_topic display_value="Hardware">782413a7c3053010069aec4b7d40ddf1</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
