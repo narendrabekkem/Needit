@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="hasLabels=true, email_client=true,live_feed=false" audit="true" db_object_id="0749c7522fb4a1100169a1fef699b62c" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element label="Color" max_length="40" name="color" type="color"/>
         <element attributes="target_field=u_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
         <element label="Mean Duration" max_length="40" name="duration" type="glide_duration"/>

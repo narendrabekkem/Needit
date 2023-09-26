@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
     <sys_ws_operation action="INSERT_OR_UPDATE">
         <active>true</active>
-        <consumes>application/json,application/xml,text/xml</consumes>
-        <consumes_customized>false</consumes_customized>
+        <consumes>*/*</consumes>
+        <consumes_customized>true</consumes_customized>
         <default_operation_uri/>
-        <enforce_acl>b06c460797ae211081a6bb46f053af16</enforce_acl>
+        <enforce_acl/>
         <http_method>POST</http_method>
         <name>Send</name>
         <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
     var requestbody = request.body.data;
-    var str;
-    objs = request.body.data.objects;
-    for (var i = 0; i < objs.length; i++) {
-        for (var key in objs[i]) {
-            if (str) {
-                str = str + objs[i][key];
-            } else if (!str) {
-
-                str = objs[i][key];
-            }
-        }
-    }
+	var pathparams=request.pathParams;
+	var headers= request.headers;
+	var queryparams=request.queryParams;
+   
     // implement resource here
     var req = {
-        'input': requestbody,
-        'typeofdate': typeof(requestbody),
-        'typeofobjs': typeof(objs)
+        'body': requestbody,
+		'pathparms':pathparams,
+		'queryparams':queryparams,
+		'headers':headers
+       
+        
     };
     response.setBody(req);
-	// return str;
-})(request, response);]]></operation_script>
+	//return param;
+
+})(request, response);
+
+function textreader(request, trim) {
+        var reqBodyLine;
+        var reqBodyString = '';
+        var streamBody = request.body.data;
+        var gtrRequestBodyReader = new GlideTextReader(streamBody);
+        
+        //get first line
+        reqBodyLine = gtrRequestBodyReader.readLine();
+        while(typeof reqBodyLine == 'string') {
+            reqBodyString += reqBodyLine + '\n';
+            
+            //get next line
+            reqBodyLine = gtrRequestBodyReader.readLine();
+        }
+        
+        return trim ? reqBodyString.trim() : reqBodyString;
+    }]]></operation_script>
         <operation_uri>/api/x_58872_needit/needitattachment/send/{needit}</operation_uri>
-        <produces>application/json,application/xml,text/xml</produces>
-        <produces_customized>false</produces_customized>
+        <produces>*/*</produces>
+        <produces_customized>true</produces_customized>
         <relative_path>/send/{needit}</relative_path>
         <request_example/>
         <requires_acl_authorization>true</requires_acl_authorization>
@@ -43,14 +57,14 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-16 08:25:23</sys_created_on>
         <sys_id>56bb58189723615081a6bb46f053af20</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Send</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_56bb58189723615081a6bb46f053af20</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-07-07 10:56:06</sys_updated_on>
+        <sys_updated_on>2023-09-22 16:04:25</sys_updated_on>
         <web_service_definition display_value="NeeditAttachment">de9b14189723615081a6bb46f053afc3</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

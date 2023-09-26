@@ -420,6 +420,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <position>30</position>
+            <sys_created_by>narendranath.reddy</sys_created_by>
+            <sys_created_on>2023-09-15 06:16:31</sys_created_on>
+            <sys_id>2f07e0a5975db11081a6bb46f053af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit" sys_domain="global" view="Default view">166a54819712e11081a6bb46f053af52</sys_ui_section>
+            <sys_updated_by>narendranath.reddy</sys_updated_by>
+            <sys_updated_on>2023-09-15 06:16:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
