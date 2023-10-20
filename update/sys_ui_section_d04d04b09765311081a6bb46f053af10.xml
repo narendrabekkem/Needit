@@ -4,13 +4,13 @@
             <element>request_type</element>
             <position>0</position>
             <sys_created_by>narendranath.reddy</sys_created_by>
-            <sys_created_on>2023-09-25 06:45:12</sys_created_on>
-            <sys_id>058dccf09765311081a6bb46f053afb5</sys_id>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>0aa4189797f1b11081a6bb46f053af8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
             <sys_updated_by>narendranath.reddy</sys_updated_by>
-            <sys_updated_on>2023-09-25 06:45:12</sys_updated_on>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>assignment_group</element>
             <position>1</position>
             <sys_created_by>narendranath.reddy</sys_created_by>
-            <sys_created_on>2023-09-25 06:45:12</sys_created_on>
-            <sys_id>858dccf09765311081a6bb46f053afb5</sys_id>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>cea4189797f1b11081a6bb46f053af8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
             <sys_updated_by>narendranath.reddy</sys_updated_by>
-            <sys_updated_on>2023-09-25 06:45:12</sys_updated_on>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>2</position>
+            <sys_created_by>narendranath.reddy</sys_created_by>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>42a4189797f1b11081a6bb46f053af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
+            <sys_updated_by>narendranath.reddy</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>narendranath.reddy</sys_created_by>
-            <sys_created_on>2023-09-25 06:45:12</sys_created_on>
-            <sys_id>098dccf09765311081a6bb46f053afb5</sys_id>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>c2a4189797f1b11081a6bb46f053af8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
             <sys_updated_by>narendranath.reddy</sys_updated_by>
-            <sys_updated_on>2023-09-25 06:45:12</sys_updated_on>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_scope</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>narendranath.reddy</sys_created_by>
-            <sys_created_on>2023-09-25 06:45:12</sys_created_on>
-            <sys_id>898dccf09765311081a6bb46f053afb5</sys_id>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>46a4189797f1b11081a6bb46f053af8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
             <sys_updated_by>narendranath.reddy</sys_updated_by>
-            <sys_updated_on>2023-09-25 06:45:12</sys_updated_on>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>what_needed</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>narendranath.reddy</sys_created_by>
-            <sys_created_on>2023-09-25 06:45:12</sys_created_on>
-            <sys_id>0d8dccf09765311081a6bb46f053afb5</sys_id>
+            <sys_created_on>2023-10-15 11:56:55</sys_created_on>
+            <sys_id>c6a4189797f1b11081a6bb46f053af8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_assignment_lookup" sys_domain="global" view="Default view">d04d04b09765311081a6bb46f053af10</sys_ui_section>
             <sys_updated_by>narendranath.reddy</sys_updated_by>
-            <sys_updated_on>2023-09-25 06:45:12</sys_updated_on>
+            <sys_updated_on>2023-10-15 11:56:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

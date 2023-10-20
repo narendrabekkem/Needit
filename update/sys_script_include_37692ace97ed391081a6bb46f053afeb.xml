@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.testScriptIncludex</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>testScriptIncludex</name>
+        <script><![CDATA[var testScriptIncludex={
+	Name:'Naren',
+	'email':'nr@gamil.com',
+	initialize: function(){
+		this.Name='Naren';
+		this.email='narendranath.reddy@gmail.com';
+		return this.Name+this.email;
+	},
+    method1: function(){
+        return('method1 tesxt');
+    },
+    method2: function(){
+        return('method2');
+    }, 
+    method3: function(){
+        return('method3');
+    },
+	type:'testScriptIncludex'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-29 15:20:16</sys_created_on>
+        <sys_id>37692ace97ed391081a6bb46f053afeb</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>testScriptIncludex</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_37692ace97ed391081a6bb46f053afeb</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-10-16 15:22:27</sys_updated_on>
+    </sys_script_include>
+</record_update>
