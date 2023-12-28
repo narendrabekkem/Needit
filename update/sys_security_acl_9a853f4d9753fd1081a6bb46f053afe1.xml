@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
-        <admin_overrides>false</admin_overrides>
+        <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>This ACL prevents user from adding Target field to list view</description>
+        <description>Default access control on x_58872_needit_needit</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_58872_needit_needit.u_target</name>
-        <operation display_value="add_to_list">394af8150a0a0b270096f5ac9d6bac47</operation>
+        <name>x_58872_needit_needit</name>
+        <operation display_value="create">create</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-07-28 15:29:49</sys_created_on>
-        <sys_id>597f467d97d0711081a6bb46f053afd0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_58872_needit_needit.u_target</sys_name>
+        <sys_created_on>2023-12-22 18:07:17</sys_created_on>
+        <sys_id>9a853f4d9753fd1081a6bb46f053afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_security_acl_597f467d97d0711081a6bb46f053afd0</sys_update_name>
+        <sys_update_name>sys_security_acl_9a853f4d9753fd1081a6bb46f053afe1</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-12-18 14:53:16</sys_updated_on>
+        <sys_updated_on>2023-12-22 18:07:17</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

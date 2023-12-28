@@ -15,24 +15,22 @@
         <script><![CDATA[(function runAction( /*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
     try {
         gs.info('started processing incoming needit mail' + "\n email body: \n " + JSON.stringify(email));
-	var grobj={};
-for(var key in current)
-{
-    grobj[key]=current[key].toString();
-}
-gs.info('Create New Needit Task: Current glideRecord:\n '+JSON.stringify(grobj));
-		
+        //         var grobj = {};
+        //         for (var key in current) {
+        //             grobj[key] = current[key].toString();
+        //         }
+        //         gs.info('Create New Needit Task: Current glideRecord:\n ' + JSON.stringify(grobj));
+
         current.u_needit.setDisplayValue(email.body.needit);
-        current.short_description = email.subject+":"+ email.body.assignee;		
+        current.short_description = email.subject + ":" + email.body.assignee;
         current.assigned_to.setDisplayValue(email.body.assignee);
-		current.assignment_group.setDisplayValue(email.body.assignment_group);
-		current.description='payload :'+ JSON.stringify(email.body);
-		logger.log('Read mail and built JSON, now evaluating ACL for user'+gs.getUserName());
-        if (current.canCreate())
-			{
-				logger.log('Evaluated ACL');
-             current.insert();
-			}
+        current.assignment_group.setDisplayValue(email.body.assignment_group);
+        current.description = 'payload :' + JSON.stringify(email.body);
+        logger.log('Read mail and built JSON, now evaluating ACL for user' + gs.getUserName());
+        if (current.canCreate()) {
+            logger.log('Evaluated ACL');
+            current.insert();
+        }
         gs.info('finished processing incoming needit mail');
     } catch (ex) {
         gs.info('caught exception :' + ex);
@@ -45,7 +43,7 @@ gs.info('Create New Needit Task: Current glideRecord:\n '+JSON.stringify(grobj))
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66f9c5ae9779611081a6bb46f053afdc</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Create New Needit Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -53,7 +51,7 @@ gs.info('Create New Needit Task: Current glideRecord:\n '+JSON.stringify(grobj))
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_in_email_action_66f9c5ae9779611081a6bb46f053afdc</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-25 15:46:53</sys_updated_on>
+        <sys_updated_on>2023-12-25 05:07:25</sys_updated_on>
         <table>x_58872_needit_needit_task</table>
         <template/>
         <type>new</type>

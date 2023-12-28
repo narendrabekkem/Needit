@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(!(current.short_description))||(!(current.description))</condition>
+        <condition>if(current.state&gt;3){(!(current.short_description))||(!(current.description))}else if (current.state==3){true}</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -57,7 +57,7 @@ function serverside() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7daf69ea9783a5d081a6bb46f053afa7</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>SetDefaultDescription</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -65,7 +65,7 @@ function serverside() {
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ui_action_7daf69ea9783a5d081a6bb46f053afa7</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-08-01 11:36:27</sys_updated_on>
+        <sys_updated_on>2023-12-24 16:34:38</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

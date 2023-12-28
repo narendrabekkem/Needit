@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="PDI - Dev36074">52161cc3979f7d5081a6bb46f053af5f</basic_auth_profile>
+        <basic_auth_user/>
+        <description>//Using this from Script&#13;
+var req=new sn_ws.RESTMessageV2('TaskRecords','GetRecords');&#13;
+req.setStringParameter('fields_required','number,sys_id');&#13;
+req.setStringParameter('number_of_results',5);&#13;
+req.setStringParameter('query','sys_created_by=narendranath.reddy');&#13;
+req.setQueryParameter('sysparm_query','active=false');&#13;
+var resp=req.execute();&#13;
+var body= resp.getBody();&#13;
+var status= resp.getStatusCode();&#13;
+//gs.info(body);&#13;
+var tasks= JSON.parse(body);&#13;
+//gs.info(tasks.result)&#13;
+for(var task in tasks['result'])&#13;
+{&#13;
+    gs.info(tasks['result'][task].sys_id)&#13;
+    &#13;
+&#13;
+}</description>
+        <name>TaskRecords</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://dev36074.service-now.com/api/now/table/task</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-12-28 08:04:18</sys_created_on>
+        <sys_id>25c4acc39713bd5081a6bb46f053afe0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TaskRecords</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_25c4acc39713bd5081a6bb46f053afe0</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-12-28 08:27:58</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

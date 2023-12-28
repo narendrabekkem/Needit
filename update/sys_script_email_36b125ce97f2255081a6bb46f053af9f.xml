@@ -7,10 +7,10 @@
 	var allobjs="template: "+JSON.stringify(template)+"<br><br> email: "+JSON.stringify(email)+"<br><br> email action: " +	email_action.event_name +"<br><br> event: event_sysid "+event.sys_id+"     "+JSON.stringify(event);
     var message;
      if (current.u_requested_for.user_name == current.sys_created_by) {
-        message = 'Hello ' + current.u_requested_for.first_name + ' ' + current.u_requested_for.last_name + ', ' + '<br><br> A new needit request ${URI_REF} has been submitted '; 
+        message = 'Hello ' + current.u_requested_for.first_name + ' ' + current.u_requested_for.last_name + ', ' + '<br><br> A new needit request ${URI_REF} has been submitted ' +"<br> The user processing this email is"+gs.getUserDisplayName(); 
     }
 	else {
-        message = 'Hello ' + current.u_requested_for.first_name + ' ' + current.u_requested_for.last_name + ', ' + '<br><br> A new needit request was submitted on your behalf by ' + current.sys_created_by + 'txt from email script' + "<br><br>" + allobjs;
+        message = 'Hello ' + current.u_requested_for.first_name + ' ' + current.u_requested_for.last_name + ', ' + '<br><br> A new needit request was submitted on your behalf by ' + current.sys_created_by + 'txt from email script' +"<br> The user processing this email is"+gs.getUserDisplayName()+ "<br><br>" + allobjs;
     }
     email.setSubject('This subject is set from Email script' + email_action.name);
     email.addAddress('cc', 'joe.employee@something.com');
@@ -24,13 +24,13 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-15 17:21:01</sys_created_on>
         <sys_id>36b125ce97f2255081a6bb46f053af9f</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Notifyuserforneeditsubmission</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_email_36b125ce97f2255081a6bb46f053af9f</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-08-17 15:05:26</sys_updated_on>
+        <sys_updated_on>2023-12-25 07:20:35</sys_updated_on>
     </sys_script_email>
 </record_update>

@@ -35,7 +35,7 @@
 		{
 			prevobj[key]=previous.getValue(key);
 		}
-	gs.addInfoMessage('Who ever said Display Br has no access to previous object. Here you go \n'+JSON.stringify(prevobj));
+	//gs.addInfoMessage('Who ever said Display Br has no access to previous object. Here you go \n'+JSON.stringify(prevobj));
 	var msg='Display BR is triggered and scratchpad object id being populated';
 	gs.addInfoMessage(msg);
     g_scratchpad.context_record = getActiveFlow(current);
@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3e02bd197faed1081a6bb46f053affa</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>Fill Needit Scratchpad Object</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_a3e02bd197faed1081a6bb46f053affa</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-10-16 15:48:37</sys_updated_on>
+        <sys_updated_on>2023-12-25 05:48:46</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

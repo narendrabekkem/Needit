@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_58872_needit_needit</collection>
-        <condition>current.isNewRecord()</condition>
+        <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -28,7 +28,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-    gs.info('test after business rule on create');
+    gs.info('test async business rule on create and current operation is '+current.isNewRecord());
     var gr = new GlideRecord('sys_user_has_role');
     gr.addQuery('role.name', 'admin');
     gr.query();
@@ -40,15 +40,14 @@
     gs.eventQueue('x_58872_needit.notify_needit_submit', current, gs.getUser().getDisplayName(), listofadmins);
 
 
-})(current, previous);
-]]></script>
+})(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-15 17:09:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f010e10e97f2255081a6bb46f053afe4</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>Notify Needit Submit event</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -56,9 +55,9 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_f010e10e97f2255081a6bb46f053afe4</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-04 18:59:42</sys_updated_on>
+        <sys_updated_on>2023-12-25 07:06:02</sys_updated_on>
         <template/>
-        <when>async_always</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=f010e10e97f2255081a6bb46f053afe4"/>
 </record_update>
