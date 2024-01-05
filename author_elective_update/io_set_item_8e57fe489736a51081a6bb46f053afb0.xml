@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Assign Some Work to Team">92cbffcb979e251081a6bb46f053af82</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-09 18:19:05</sys_created_on>
+        <sys_id>8e57fe489736a51081a6bb46f053afb0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Assign Some Work to Team</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>io_set_item_8e57fe489736a51081a6bb46f053afb0</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-09 18:19:05</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>io_set_item_8e57fe489736a51081a6bb46f053afb0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Assign Some Work to Team">92cbffcb979e251081a6bb46f053af82</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-09 18:19:05</sys_created_on>
+        <sys_id>8e57fe489736a51081a6bb46f053afb0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Assign Some Work to Team</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>io_set_item_8e57fe489736a51081a6bb46f053afb0</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-09 18:19:05</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>2040162944</payload_hash>
+        <record_name>Standard Employee Questions.Assign Some Work to Team</record_name>
+        <reverted_from/>
+        <source>38f911bb970b351081a6bb46f053af6d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-12-18 09:35:42</sys_created_on>
+        <sys_id>a11ad5fb970b351081a6bb46f053af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c7c4800a50000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-12-18 09:35:42</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>611ad5fb180b35108159c60b182b8a43</update_guid>
+        <update_guid_history>611ad5fb180b35108159c60b182b8a43:2040162944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.Assign Some Work to Team">f8b40215972f71d081a6bb46f053af71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-04 14:48:28</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>cb97219ddb7c4be0b4625b91d7826440</sys_id>
+        <sys_metadata>8e57fe489736a51081a6bb46f053afb0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Assign Some Work to Team</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>io_set_item_8e57fe489736a51081a6bb46f053afb0</sys_update_name>
+        <sys_update_version display_value="io_set_item_8e57fe489736a51081a6bb46f053afb0">a11ad5fb970b351081a6bb46f053af43</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-04 14:48:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_reconciliation_definition_mapping">
+    <cmdb_reconciliation_definition_mapping action="INSERT_OR_UPDATE">
+        <mapped_tile>05c88da164233110b3fb0802098e5caf</mapped_tile>
+        <reconciliation_definition display_value="Hardware rule by ServiceNow">c5c88da19723311081a6bb46f053afaf</reconciliation_definition>
+        <sys_class_name>cmdb_reconciliation_definition_mapping</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-05 05:05:05</sys_created_on>
+        <sys_id>4dc889e19723311081a6bb46f053af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c5c88da19723311081a6bb46f053afaf</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cmdb_reconciliation_definition_mapping_4dc889e19723311081a6bb46f053af36</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-05 05:05:05</sys_updated_on>
+    </cmdb_reconciliation_definition_mapping>
+</record_update>
