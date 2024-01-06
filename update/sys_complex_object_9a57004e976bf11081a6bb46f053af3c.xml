@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd657004ed06bf110fb9b8cffb3b7c93c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6ead8e780f603200cd674f8ce1050ed1</scope_name>
+        <serialized_content>{"FlowDesigner:FDd657004ed06bf110fb9b8cffb3b7c93c":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd657004ed06bf110fb9b8cffb3b7c93c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"incidents\",\"mandatory\":\"false\",\"child_name\":\"incidents_child0\",\"uiUniqueId\":\"4c162c7e-0362-4fad-b0a2-bab0efe78c87\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd657004ed06bf110fb9b8cffb3b7c93c\",\"child_label\":\"incidents_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6520dcac-6c29-48b3-a5fa-aeffe22bd1d6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:36:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a57004e976bf11081a6bb46f053af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDd657004ed06bf110fb9b8cffb3b7c93c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_complex_object_9a57004e976bf11081a6bb46f053af3c</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:36:14</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -13,21 +13,21 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>get_user_incidents</internal_name>
-        <label_cache>[{"name":"{{action.user}}","label":"action➛user","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[114787e2-6f33-4b94-9646-cbea5fd72eea].incidents}}","label":"step➛Script step➛incidents","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD02cc66dd9a2b791015982bc640b8a647","child_label":"incidents_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"incidents_child0","child_uiUniqueId":"6520dcac-6c29-48b3-a5fa-aeffe22bd1d6","uiUniqueId":"4c162c7e-0362-4fad-b0a2-bab0efe78c87"}}]</label_cache>
+        <label_cache>[{"name":"{{action.user}}","label":"action➛user","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[114787e2-6f33-4b94-9646-cbea5fd72eea].incidents}}","label":"step➛Script step➛incidents","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD02cc66dd9a2b791015982bc640b8a647","child_label":"incidents_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"incidents_child0","child_uiUniqueId":"6520dcac-6c29-48b3-a5fa-aeffe22bd1d6","uiUniqueId":"4c162c7e-0362-4fad-b0a2-bab0efe78c87"}},{"name":"{{step[7042be80-1460-4d87-bf79-eb613e08b017].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master_snapshot>f250fad1976b7910df8fb3e6f053afe4</master_snapshot>
         <name>Get User Incidents</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2024-01-04 17:21:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0d7a259972b7910df8fb3e6f053af2d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Get User Incidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d0d7a259972b7910df8fb3e6f053af2d</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 18:10:17</sys_updated_on>
+        <sys_updated_on>2024-01-06 13:30:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -77,10 +77,10 @@
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2024-01-04 17:43:36</sys_created_on>
         <sys_id>cecc66dd972b7910df8fb3e6f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:43:36</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-01-06 13:21:29</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">46cc66dd972b7910df8fb3e6f053af57</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d0d7a259972b7910df8fb3e6f053af2d"/>
@@ -120,91 +120,326 @@
         <table>var__m_sys_hub_action_output_d0d7a259972b7910df8fb3e6f053af2d</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=d0d7a259972b7910df8fb3e6f053af2d^sys_idNOT IN8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=d0d7a259972b7910df8fb3e6f053af2d^sys_idNOT IN7df3c046976bf11081a6bb46f053af00,8ecc66dd972b7910df8fb3e6f053af3b"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get User Incidents">d0d7a259972b7910df8fb3e6f053af2d</action>
-        <cid>114787e2-6f33-4b94-9646-cbea5fd72eea</cid>
+        <cid>7042be80-1460-4d87-bf79-eb613e08b017</cid>
         <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <inputs/>
+        <label>REST step</label>
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2024-01-04 17:43:35</sys_created_on>
-        <sys_id>8ecc66dd972b7910df8fb3e6f053af3b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>7df3c046976bf11081a6bb46f053af00</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:59:08</sys_updated_on>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7df3c046976bf11081a6bb46f053af00"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>8ecc66dd972b7910df8fb3e6f053af3b</document_key>
-        <order>600</order>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
-        <sys_id>06cc66dd972b7910df8fb3e6f053af53</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>02f3c046976bf11081a6bb46f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:59:08</sys_updated_on>
-        <value>(function execute(inputs, outputs) {&#13;
-var gr = new GlideRecord('incident');&#13;
-gr.addQuery('caller_id',inputs.user.sys_id);&#13;
-gr.query();&#13;
-var incidents=[];&#13;
-while(gr.next())&#13;
-{&#13;
-    incidents.push(gr.number.toString());&#13;
-}&#13;
-outputs.incidents=incidents&#13;
-&#13;
-})(inputs, outputs);&#13;
-</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>8ecc66dd972b7910df8fb3e6f053af3b</document_key>
-        <order>400</order>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>12</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
-        <sys_id>4ecc66dd972b7910df8fb3e6f053af52</sys_id>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>0ef3c046976bf11081a6bb46f053af50</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:43:36</sys_updated_on>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8ecc66dd972b7910df8fb3e6f053af3b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>user</field>
-        <id>8ecc66dd972b7910df8fb3e6f053af3b</id>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
-        <sys_id>cecc66dd972b7910df8fb3e6f053af53</sys_id>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>4af3c046976bf11081a6bb46f053af50</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:43:36</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_8ecc66dd972b7910df8fb3e6f053af3b</table>
-        <value>{{action.user}}</value>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>3bc2c882976bf11081a6bb46f053afcc</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>4ef3c046976bf11081a6bb46f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>4ef3c046976bf11081a6bb46f053af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>82f3c046976bf11081a6bb46f053af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>86f3c046976bf11081a6bb46f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>https://dev36074.service-now.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>8af3c046976bf11081a6bb46f053af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>api/now/table/incident</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>c2f3c046976bf11081a6bb46f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>c6f3c046976bf11081a6bb46f053af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7df3c046976bf11081a6bb46f053af00</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>cef3c046976bf11081a6bb46f053af50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7df3c046976bf11081a6bb46f053af00^id=7df3c046976bf11081a6bb46f053af00"/>
+    <sys_element_mapping action="delete_multiple" query="id=7df3c046976bf11081a6bb46f053af00"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>46f3c046976bf11081a6bb46f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8ecc66dd972b7910df8fb3e6f053af3b^id=8ecc66dd972b7910df8fb3e6f053af3b"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8ecc66dd972b7910df8fb3e6f053af3b"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=8ecc66dd972b7910df8fb3e6f053af3b^sys_idNOT IN4acc66dd972b7910df8fb3e6f053af43"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>cef3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>0ef3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>86f3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>caf3c046976bf11081a6bb46f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>82f3c046976bf11081a6bb46f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>4af3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>0af3c046976bf11081a6bb46f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>02f3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>0af3c046976bf11081a6bb46f053af4e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"sysparm_query","value":"caller_id={{action.user}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"sysparm_fields","value":"number, caller_id.nmae, short_description","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>7df3c046976bf11081a6bb46f053af00</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>c2f3c046976bf11081a6bb46f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=7df3c046976bf11081a6bb46f053af00"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7df3c046976bf11081a6bb46f053af00"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7df3c046976bf11081a6bb46f053af00^sys_idNOT IN0af3c046976bf11081a6bb46f053af25"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=349d60f8-9766-4915-931e-cb9c8da1087e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -228,7 +463,7 @@ outputs.incidents=incidents&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>user</element>
+        <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -236,10 +471,217 @@ outputs.incidents=incidents&#13;
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">7df3c046976bf11081a6bb46f053af00</model>
+        <model_id>7df3c046976bf11081a6bb46f053af00</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7df3c046976bf11081a6bb46f053af00</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>0af3c046976bf11081a6bb46f053af25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7df3c046976bf11081a6bb46f053af00"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7df3c046976bf11081a6bb46f053af00^sys_idNOT INcaf3c046976bf11081a6bb46f053af2b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7df3c046976bf11081a6bb46f053af00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:21:28</sys_created_on>
+        <sys_id>caf3c046976bf11081a6bb46f053af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:21:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get User Incidents">d0d7a259972b7910df8fb3e6f053af2d</action>
+        <cid>114787e2-6f33-4b94-9646-cbea5fd72eea</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-04 17:43:35</sys_created_on>
+        <sys_id>8ecc66dd972b7910df8fb3e6f053af3b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:30:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8ecc66dd972b7910df8fb3e6f053af3b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
+        <sys_id>06cc66dd972b7910df8fb3e6f053af53</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:30:20</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var restbody=JSON.parse(inputs.body);&#13;
+&#13;
+&#13;
+outputs.incidents=restbody.result;&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8ecc66dd972b7910df8fb3e6f053af3b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
+        <sys_id>4ecc66dd972b7910df8fb3e6f053af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-04 17:43:36</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>8ecc66dd972b7910df8fb3e6f053af3b</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:27:04</sys_created_on>
+        <sys_id>8045800a976bf11081a6bb46f053af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8ecc66dd972b7910df8fb3e6f053af3b</table>
+        <value>{{step[7042be80-1460-4d87-bf79-eb613e08b017].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8ecc66dd972b7910df8fb3e6f053af3b</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 13:27:04</sys_created_on>
+        <sys_id>0045800a976bf11081a6bb46f053af0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>8ecc66dd972b7910df8fb3e6f053af3b</id>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-04 17:43:36</sys_created_on>
+        <sys_id>cecc66dd972b7910df8fb3e6f053af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-04 17:43:36</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8ecc66dd972b7910df8fb3e6f053af3b</table>
+        <value>{{action.user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8ecc66dd972b7910df8fb3e6f053af3b^id=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ecc66dd972b7910df8fb3e6f053af3b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8ecc66dd972b7910df8fb3e6f053af3b^sys_idNOT IN8045400a976bf11081a6bb46f053afef"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
         <label/>
         <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <max_length>8000</max_length>
         <model display_value="Script step">8ecc66dd972b7910df8fb3e6f053af3b</model>
         <model_id>8ecc66dd972b7910df8fb3e6f053af3b</model_id>
         <model_table>sys_hub_step_instance</model_table>
@@ -249,7 +691,7 @@ outputs.incidents=incidents&#13;
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -261,16 +703,16 @@ outputs.incidents=incidents&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2024-01-04 17:43:35</sys_created_on>
-        <sys_id>4acc66dd972b7910df8fb3e6f053af43</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-01-06 13:27:04</sys_created_on>
+        <sys_id>8045400a976bf11081a6bb46f053afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:44:33</sys_updated_on>
+        <sys_updated_on>2024-01-06 13:27:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -382,7 +824,7 @@ outputs.incidents=incidents&#13;
         <sys_created_on>2024-01-04 17:43:35</sys_created_on>
         <sys_id>c2cc66dd972b7910df8fb3e6f053af4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>incidents</sys_name>
+        <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -717,14 +1159,14 @@ outputs.incidents=incidents&#13;
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2024-01-04 17:43:36</sys_created_on>
         <sys_id>82cc66dd972b7910df8fb3e6f053af5c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 17:59:12</sys_updated_on>
+        <sys_updated_on>2024-01-06 13:30:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -765,7 +1207,7 @@ outputs.incidents=incidents&#13;
         <sys_created_on>2024-01-04 17:43:35</sys_created_on>
         <sys_id>06cc2e5d972b7910df8fb3e6f053af66</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>user</sys_name>
+        <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -790,7 +1232,7 @@ outputs.incidents=incidents&#13;
         <sys_created_on>2024-01-04 17:43:36</sys_created_on>
         <sys_id>02cc66dd972b7910df8fb3e6f053af61</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -813,7 +1255,7 @@ outputs.incidents=incidents&#13;
         <sys_created_on>2024-01-04 17:43:36</sys_created_on>
         <sys_id>06cc66dd972b7910df8fb3e6f053af5b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -836,7 +1278,7 @@ outputs.incidents=incidents&#13;
         <sys_created_on>2024-01-04 17:44:34</sys_created_on>
         <sys_id>980daadd972b7910df8fb3e6f053af2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>incidents</sys_name>
+        <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1031,6 +1473,7 @@ outputs.incidents=incidents&#13;
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7e50fad1976b7910df8fb3e6f053afed^id=7e50fad1976b7910df8fb3e6f053afed"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7e50fad1976b7910df8fb3e6f053afed"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e50fad1976b7910df8fb3e6f053afed"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=7e50fad1976b7910df8fb3e6f053afed^sys_idNOT INf250fad1976b7910df8fb3e6f053aff1"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1218,7 +1661,7 @@ outputs.incidents=incidents&#13;
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7e50fad1976b7910df8fb3e6f053afed_incidents_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2024-01-04 17:59:13</sys_updated_on>
         <url/>
@@ -1601,7 +2044,7 @@ outputs.incidents=incidents&#13;
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f250fad1976b7910df8fb3e6f053afe4_user_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2024-01-04 17:59:13</sys_updated_on>
         <url/>
@@ -1626,7 +2069,7 @@ outputs.incidents=incidents&#13;
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f250fad1976b7910df8fb3e6f053afe4_incidents_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2024-01-04 17:59:13</sys_updated_on>
         <url/>
@@ -1649,7 +2092,7 @@ outputs.incidents=incidents&#13;
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f250fad1976b7910df8fb3e6f053afe4___action_status___en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2024-01-04 17:59:13</sys_updated_on>
         <url/>
@@ -1672,7 +2115,7 @@ outputs.incidents=incidents&#13;
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f250fad1976b7910df8fb3e6f053afe4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2024-01-04 17:59:13</sys_updated_on>
         <url/>
