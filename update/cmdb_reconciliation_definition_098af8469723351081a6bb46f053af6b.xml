@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_reconciliation_definition">
+    <cmdb_reconciliation_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>cmdb_ci_hardware</applies_to>
+        <attributes>attested_date,skip_sync,operational_status,most_frequent_user,attestation_score,due_in,processor_name,install_date,invoice_number,gl_account,warranty_expiration,asset_tag,hardware_substatus,fqdn,change_control,owned_by,internet_facing,checked_out,business_unit,delivery_date,maintenance_schedule,hardware_status,install_status,cost_center,attested_by,supported_by,dns_domain,name,assigned,purchase_date,life_cycle_stage,subcategory,short_description,default_gateway,assignment_group,managed_by,managed_by_group,can_print,manufacturer,po_number,checked_in,vendor,life_cycle_stage_status,mac_address,company,model_number,justification,department,assigned_to,start_date,cost,comments,attestation_status,serial_number,monitor,model_id,ip_address,cost_cc,support_group,order_date,schedule,environment,due,attested,unverified,correlation_id,attributes,location,asset,category,fault_count,lease_id</attributes>
+        <condition/>
+        <discovery_source>ImportSet</discovery_source>
+        <name>Hardware rule by ImportSet</name>
+        <null_update/>
+        <priority>250</priority>
+        <sys_class_name>cmdb_reconciliation_definition</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 17:19:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>098af8469723351081a6bb46f053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware rule by ImportSet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cmdb_reconciliation_definition_098af8469723351081a6bb46f053af6b</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 17:19:47</sys_updated_on>
+    </cmdb_reconciliation_definition>
+</record_update>

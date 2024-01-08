@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_dynamic_reconciliation_definition">
+    <cmdb_dynamic_reconciliation_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>cmdb_ci_win_server</applies_to>
+        <attributes>cpu_speed</attributes>
+        <condition/>
+        <name>Windows Server rule by most_reported</name>
+        <rule_type>most_reported</rule_type>
+        <sys_class_name>cmdb_dynamic_reconciliation_definition</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-06 17:24:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c18b34c69723351081a6bb46f053af55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Windows Server rule by most_reported</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cmdb_dynamic_reconciliation_definition_c18b34c69723351081a6bb46f053af55</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-06 17:33:40</sys_updated_on>
+    </cmdb_dynamic_reconciliation_definition>
+</record_update>

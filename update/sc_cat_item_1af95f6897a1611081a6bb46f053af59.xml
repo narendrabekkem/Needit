@@ -14,7 +14,7 @@
         <description><![CDATA[<p><span style="font-size: 12pt;"><em><strong>Request for your needs from here</strong></em></span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="My Tablet Request">e691821d97eb71d081a6bb46f053af7e</flow_designer_flow>
+        <flow_designer_flow display_value="Assign Work to team">9edaced197a77910df8fb3e6f053afc6</flow_designer_flow>
         <fulfillment_automation_level>manual</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -46,7 +46,7 @@
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1af95f6897a1611081a6bb46f053af59&amp;sysparm_preview=true", "summary");</preview>
-        <price>10</price>
+        <price>71.5411</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -64,27 +64,66 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-10 06:50:08</sys_created_on>
         <sys_id>1af95f6897a1611081a6bb46f053af59</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Needit Request</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sc_cat_item_1af95f6897a1611081a6bb46f053af59</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 14:53:25</sys_updated_on>
+        <sys_updated_on>2024-01-08 12:36:08</sys_updated_on>
         <taxonomy_topic display_value="Hardware">782413a7c3053010069aec4b7d40ddf1</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
-        <version>1</version>
+        <version>4</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=1af95f6897a1611081a6bb46f053af59"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1af95f6897a1611081a6bb46f053af59</documentkey>
+        <fieldname>description</fieldname>
+        <language>en.GB</language>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-08 12:01:46</sys_created_on>
+        <sys_id>cee40ea697e3f11081a6bb46f053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-08 12:01:46</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;em&gt;&lt;strong&gt;Request for your needs from here&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1af95f6897a1611081a6bb46f053af59</documentkey>
+        <fieldname>name</fieldname>
+        <language>en.GB</language>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-08 12:01:46</sys_created_on>
+        <sys_id>06e40ea697e3f11081a6bb46f053aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-08 12:01:46</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Needit Request</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1af95f6897a1611081a6bb46f053af59</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>en.GB</language>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2024-01-08 12:01:46</sys_created_on>
+        <sys_id>0ee40ea697e3f11081a6bb46f053affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2024-01-08 12:01:46</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Request for your needs from here</value>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=1af95f6897a1611081a6bb46f053af59"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>10</amount>
@@ -92,14 +131,14 @@
         <field>price</field>
         <id>1af95f6897a1611081a6bb46f053af59</id>
         <parent/>
-        <reference_amount>10</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_amount>7.894</reference_amount>
+        <reference_currency display_value="GBP">GBP</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-10 06:50:08</sys_created_on>
         <sys_id>814a5b2c97a1611081a6bb46f053afdc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 14:53:26</sys_updated_on>
+        <sys_updated_on>2024-01-08 12:01:46</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -110,13 +149,13 @@
         <id>1af95f6897a1611081a6bb46f053af59</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="GBP">GBP</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-10 06:50:08</sys_created_on>
         <sys_id>8d4a936c97a1611081a6bb46f053af8f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2024-01-04 14:53:26</sys_updated_on>
+        <sys_updated_on>2024-01-08 12:01:46</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="518a465297e3711081a6bb46f053af6f" extends="cmdb_ci_app_server" label="Mid Server" max_length="40" name="x_58872_needit_u_cmdb_ci_mid_server" type="collection"/>
+</database>
