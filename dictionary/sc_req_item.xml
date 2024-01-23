@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="global_search_config_handler=RequestItemSearchConfig,hasWorkflow=true" audit="true" create_roles="catalog_admin" db_object_id="479ec82cd9b13110cedf7dffddb48fcf" extends="task" label="Requested Item" max_length="40" name="sc_req_item" text_index="true" type="collection">
+        <element function_definition="glidefunction:datediff(sys_created_on,sys_updated_on)" function_field="true" label="MTR" max_length="40" name="x_58872_needit_rpt_mtr" read_only="true" type="glide_duration"/>
+        <element active="false" attributes="edge_encryption_enabled=true" function_definition="glidefunction:datediff(sys_created_on,closed_at)" function_field="true" label="MTTR" max_length="40" name="x_58872_needit_rpt_mttr" read_only="true" type="glide_date"/>
+    </element>
+</database>

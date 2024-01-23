@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="hasLabels=true, email_client=true,live_feed=false" audit="true" db_object_id="0749c7522fb4a1100169a1fef699b62c" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element function_definition="glidefunction: global.datediff(sys_created_on, sys_updated_on)" function_field="true" label="Age Function Field" max_length="40" name="age" read_only="true" type="glide_duration"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var timenow= new GlideDateTime();&#13;&#10;&#9;var opened= new GlideDateTime(current.sys_created_on);&#13;&#10;&#9;var dur= GlideDateTime.subtract(opened, timenow);&#13;&#10;&#9;return dur;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Age Calculated Field" max_length="40" name="age_calculated_field" type="glide_duration" virtual="true"/>
         <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element label="Color" max_length="40" name="color" type="color"/>
         <element attributes="target_field=u_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
+        <element dependent="source_table" dependent_on_field="source_table" label="Document" max_length="40" name="document" type="document_id" use_dependent_field="true"/>
         <element label="Mean Duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Phone" max_length="40" name="mobile_phone" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="More Info" max_length="4000" name="more_info" type="journal_input"/>
         <element attributes="encode_utf8=false" dependent="u_requested_for" dependent_on_field="u_requested_for" label="Roles" max_length="32" name="roles" reference="sys_user_role" reference_floats="true" reference_qual="javascript: new GetRolesofUser().Getroles(current.u_requested_for)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element label="SLA Schedule" max_length="40" name="sla_schedule" reference="cmn_schedule" type="reference"/>
+        <element label="Source Table" max_length="40" name="source_table" type="string"/>
         <element label="Stage" max_length="80" name="stage" type="workflow"/>
         <element label="Sub Stage" max_length="80" name="sub_stage" type="workflow"/>
         <element active="false" function_definition="glidefunction: datediff( sys_updated_on,sys_created_on)" function_field="true" label="Time Elapsed from submit and last updated" max_length="40" name="time_elapsed_from_submit_and_last_updated" read_only="true" type="glide_duration"/>
