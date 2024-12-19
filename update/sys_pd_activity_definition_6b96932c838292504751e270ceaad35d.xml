@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>GetIncidentsPaginated</label>
+        <name>_span_u_getin_u_cidentspaginated_span_</name>
+        <outputs/>
+        <required_roles/>
+        <source>cd9abc5b83b5d2104751e270ceaad3ec</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>narendrabekkem</sys_created_by>
+        <sys_created_on>2024-11-20 15:39:03</sys_created_on>
+        <sys_id>6b96932c838292504751e270ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetIncidentsPaginated</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_6b96932c838292504751e270ceaad35d</sys_update_name>
+        <sys_updated_by>narendrabekkem</sys_updated_by>
+        <sys_updated_on>2024-11-20 15:39:03</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=6b96932c838292504751e270ceaad35d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_cd9abc5b83b5d2104751e270ceaad3ec^id=6b96932c838292504751e270ceaad35d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_cd9abc5b83b5d2104751e270ceaad3ec^id=6b96932c838292504751e270ceaad35d"/>
+</record_update>
