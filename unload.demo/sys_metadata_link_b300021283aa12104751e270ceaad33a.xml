@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>ed0f150b9774751081a6bb46f053af87</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_58872_needit_needit">
+    <x_58872_needit_needit action="INSERT_OR_UPDATE">
+        <action_status/>
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</assigned_to>
+        <assignment_group display_value="">Database</assignment_group>
+        <attachment/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <color/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <complete/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>payload body:{"needit":"NI005365","MmneeditmM":null,"assignee":"Beth Anglin","MmassigneemM":null,"assignment_group":"Database","Mmassignment_groupmM":null}
+ Entire Email Object : {"subject":"RE: update Needit NI005365","headers":"Delivered-To:servicenowpdimailbox@gmail.com\r\nReceived:by 2002:a8a:11da:0:b0:4f4:12b8:7ddb with SMTP id w26csp2687997oct;\r\n        Sat, 26 Aug 2023 23:56:20 -0700 (PDT)\r\nX-Received:by 2002:a17:90b:3e8b:b0:268:535f:7c15 with SMTP id rj11-20020a17090b3e8b00b00268535f7c15mr33419334pjb.0.1693119379697;\r\n        Sat, 26 Aug 2023 23:56:19 -0700 (PDT)\r\nARC-Seal:i=1; a=rsa-sha256; t=1693119379; cv=none;\r\n        d=google.com; s=arc-20160816;\r\n        b=pdWdaQdFh1Y0MVdcWZkYpbySFC7kbOpmZVqOnWyYKIHByQTjuMeqqTWppFDi+lI2A/\r\n         v/CplcMbzKgsaGwA3IaMz0lorWLGM8nRKA8Xtr6nduE8I9s6R5DISxw+TMs7+7g+3jyT\r\n         FhLQzyZ/t0Nszm9BgQZRL+X6i6i/Iw1yVTX0I+UfuW08XYMZWAz4BoKoNOk/tG0FjuvW\r\n         Zqh9/uCLYYz21I53xrNMMZeeu4Aj0sxLgCiQM1Ip21V2PvCIRzE0ULhwYnqjJexlsD3j\r\n         R10PeMrTSvhZjhcuFmizTUXZTC5oJew1BRYIFjGLIX8cHobBiH94VGmwgTiXNNBAh36Z\r\n         IzKQ==\r\nARC-Message-Signature:i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\r\n        h=to:subject:message-id:date:from:mime-version:dkim-signature;\r\n        bh=dhvgXT1QMOHAduyXIYfxzB5VEtcDN/8ynT/euWJ8vtA=;\r\n        fh=WY/s7lg6q3tpzs7k38Bu/Lksyc2ZWt9Ld+Ipp3oPBNk=;\r\n        b=A78l1OJXbijeo0On/TEGTtw/40Yt8bQKvEto+MvnkYaGxjt2Lc0/reK3O5zc5IUYhg\r\n         fwjPLva4BmuBmxocm/y87OhIGRoZkjrUz+O/C/IHPAK+gIiaYaOVQik92mA4qkV0TBiq\r\n         dNrgOUhODyGqvH84dygpvVsCO/eel28g8zc6qu+qW20zHLKPpfxq15u3OWzmb5LadTle\r\n         tca5C0N/x00fVfAUn/XOpwJTpjt2fGlzXpxTx22hPLoB46lrbxSMUPoX96R1tIn8weMj\r\n         a8kzIB+Miw9EuZyuZfNq7Np6p1jCrSOEGc119iKSh9h5LS82Fl8s+nxipRg5zZjRjhqG\r\n         /dSQ==\r\nARC-Authentication-Results:i=1; mx.google.com;\r\n       dkim=pass header.i=@gmail.com header.s=20221208 header.b=avxQ1a4P;\r\n       spf=pass (google.com: domain of narendrabekkem@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=narendrabekkem@gmail.com;\r\n       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com\r\nReturn-Path:&lt;narendrabekkem@gmail.com&gt;\r\nReceived:from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id x2-20020a17090300c200b001c0bf60ba63sor3398672plc.3.2023.08.26.23.56.19\r\n        for &lt;servicenowpdimailbox@gmail.com&gt;\r\n        (Google Transport Security);\r\n        Sat, 26 Aug 2023 23:56:19 -0700 (PDT)\r\nReceived-SPF:pass (google.com: domain of narendrabekkem@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;\r\nAuthentication-Results:mx.google.com;\r\n       dkim=pass header.i=@gmail.com header.s=20221208 header.b=avxQ1a4P;\r\n       spf=pass (google.com: domain of narendrabekkem@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=narendrabekkem@gmail.com;\r\n       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com\r\nDKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=gmail.com; s=20221208; t=1693119379; x=1693724179;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=dhvgXT1QMOHAduyXIYfxzB5VEtcDN/8ynT/euWJ8vtA=;\r\n        b=avxQ1a4PibPh5deFqBTbqrliX8ncB2k0rd3vZTuRyYccnis7LAWunPgTACBSopnIWE\r\n         4pzTBjsjRbOkGBQV2VxIfgEl5DhZx8rCZFzi+a5OBbu+YnYAFpPHAr+h/Zb3gaZN8ekx\r\n         kTklO6jmKMvpWVu55iAWRj4ElDxwkxR8O9ZNvnqehfEZ6if8TPX8+o7NMUGEEiXV57Jf\r\n         7wahn/5OexTGaKWDaEXCtLJ4X2rAn+dq7OG0faCRrt4LU+lSp5nMiihG7SyVPV00Lmo3\r\n         foHhBPRM0cUh7wIfri1Phu5P43Bt1DLYVHfPpholqySmJgqfac3e28JGQs1V2IJoXvMy\r\n         Ojlw==\r\nX-Google-DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20221208; t=1693119379; x=1693724179;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=dhvgXT1QMOHAduyXIYfxzB5VEtcDN/8ynT/euWJ8vtA=;\r\n        b=CMJ4YdkY9VENFM2iVM/GVVSYnm1Jit5jHCw/tMr3YfyN7gxafVdZSwgsiDtXLFNPPS\r\n         7MQGW0IJPvkrS5xqDaad0wDXCi1sCcwDYsew95NEsbJ57pmx4p+lTDiv/QrDRoUFYCMt\r\n         J7zgQ5qVf3haJpS3ldCfgOg1AH3mpJAzGN5k7hBx1SpKMeOvF0Vzc7oMQLztVBPkwaYB\r\n         /oGS60u+nwa2kXp6e8z9qSQ2BNUi7DDqDwFU1Q9bBjayhjqOQDK1u880HNNhUX+ZEQ2/\r\n         W9blkl0Z6TBchUm7+o9cKVRrGL9Y8fFCVxLSWNvJ1hSjJWc1HukBwVu+Px/3L6mGDKNF\r\n         kWGw==\r\nX-Gm-Message-State:AOJu0YwHaoEs+Mie3WK13lHoqkRte6EcoVG2MlbkoPLzzSZsjE0PDEMu\r\n\tnpE74UrWLt2JI+TRgLTOdHlG25gXfJx/a3zf23paGdbugWg=\r\nX-Google-Smtp-Source:AGHT+IGtinG6k5GQdeFRn1Y3JmyRujts/AZkuWFxzlbOTZ9M1ZzSbtOstdqpnYQkCd7ZgDKZAh1scxZbnxkw7ndSbXc=\r\nX-Received:by 2002:a17:90b:3116:b0:271:78a0:8ab2 with SMTP id\r\n gc22-20020a17090b311600b0027178a08ab2mr2865698pjb.24.1693119378921; Sat, 26\r\n Aug 2023 23:56:18 -0700 (PDT)\r\nMIME-Version:1.0\r\nFrom:Narendranath Reddy &lt;narendrabekkem@gmail.com&gt;\r\nDate:Sun, 27 Aug 2023 12:26:07 +0530\r\nMessage-ID:&lt;CA+nc5A-67N7Jq08_Wdt+QRnqX6fbuQK048_X0ToroZB4qmy8NA@mail.gmail.com&gt;\r\nSubject:RE: update Needit NI005365\r\nTo:\"servicenowpdimailbox@gmail.com\" &lt;servicenowpdimailbox@gmail.com&gt;\r\nContent-Type:multipart/alternative; boundary=\"000000000000249d9a0603e2130b\"\r\nX-ServiceNow-Source:EmailInbound\r\nX-ServiceNow-SysEmail-Version:2\r\nMultipartContentTypes:text/plain; charset=\"UTF-8\";text/html; charset=\"UTF-8\";\r\n","content_type":"multipart/alternative; boundary=\"000000000000249d9a0603e2130b\"","importance":"","recipients":"servicenowpdimailbox@gmail.com","recipients_array":["servicenowpdimailbox@gmail.com"],"uid":"GmailId18a35c77893d484d","to":"servicenowpdimailbox@gmail.com","direct":"servicenowpdimailbox@gmail.com","copied":"","body_html":"&lt;div dir=\"ltr\"&gt;&lt;div&gt;Blah blah more text&lt;/div&gt;needit: NI005365&lt;br&gt;assignee: Beth Anglin&lt;br&gt;assignment_group: Database&lt;br&gt;&lt;/div&gt;","body_text":"Blah blah more text\nneedit: NI005365\nassignee: Beth Anglin\nassignment_group: Database","from_sys_id":"6816f79cc0a8016401c5a33be04be441","from":"narendrabekkem@gmail.com","origemail":"narendrabekkem@gmail.com","body":{"needit":"NI005365","MmneeditmM":null,"assignee":"Beth Anglin","MmassigneemM":null,"assignment_group":"Database","Mmassignment_groupmM":null}}
+
+
+ Event Object : {"sys_meta":null,"instance":{},"process_on":{},"user_name":{},"sys_mod_count":{},"sys_updated_on":{},"uri":{},"processed":{},"rollback_context_id":{},"sys_id":{},"sys_updated_by":{},"user_id":{},"sys_created_on":{},"processing_duration":{},"name":{},"descriptive_name":{},"state":{},"parm1":{},"table":{},"parm2":{},"queue":{},"sys_created_by":{},"claimed_by":{},"sys_table_name":{}}
+
+
+ Logger Object : {}</description>
+        <due_date/>
+        <duration>1970-01-02 09:41:59</duration>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <image/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <mobile_phone/>
+        <more_info/>
+        <needs_attention>false</needs_attention>
+        <number>NI005365</number>
+        <opened_at>2023-08-26 05:40:33</opened_at>
+        <opened_by display_value="">active=true^roles=itil</opened_by>
+        <order/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>2</reassignment_count>
+        <rejection_goto/>
+        <roles/>
+        <route_reason/>
+        <service_offering/>
+        <short_description>RE: update Needit NI005365:Beth Anglin</short_description>
+        <skills/>
+        <sla_due/>
+        <sla_schedule/>
+        <stage>Waiting approval</stage>
+        <state>14</state>
+        <sub_stage/>
+        <sys_class_name>x_58872_needit_needit</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-08-26 05:40:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed0f150b9774751081a6bb46f053af87</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-08-27 15:22:32</sys_updated_on>
+        <task_effective_number>NI005365</task_effective_number>
+        <time_elapsed_from_submit_and_last_updated>1970-01-01 00:00:00</time_elapsed_from_submit_and_last_updated>
+        <time_worked/>
+        <u_field_name/>
+        <u_needit_list/>
+        <u_other/>
+        <u_request_type>legal</u_request_type>
+        <u_requested_for display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</u_requested_for>
+        <u_requested_for_email>narendranath.reddy@example.com</u_requested_for_email>
+        <u_table_name_1/>
+        <u_target/>
+        <u_what_needed>hr1</u_what_needed>
+        <u_when_needed>2023-08-31 05:40:33</u_when_needed>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <watchers/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_58872_needit_needit>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>narendrabekkem</sys_created_by>
+        <sys_created_on>2024-12-20 16:21:38</sys_created_on>
+        <sys_id>b300021283aa12104751e270ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NI005365</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_b300021283aa12104751e270ceaad33a</sys_update_name>
+        <sys_updated_by>narendrabekkem</sys_updated_by>
+        <sys_updated_on>2024-12-20 16:21:38</sys_updated_on>
+        <tablename>x_58872_needit_needit</tablename>
+    </sys_metadata_link>
+</record_update>

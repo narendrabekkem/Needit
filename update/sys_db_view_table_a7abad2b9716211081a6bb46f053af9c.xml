@@ -17,7 +17,7 @@
         <sys_updated_on>2023-06-13 11:25:15</sys_updated_on>
         <table>x_58872_needit_needit_task</table>
         <variable_prefix>p</variable_prefix>
-        <view display_value="x_58872_needit_needit_needittask">b94ba52b9716211081a6bb46f053afc0</view>
+        <view display_value="x_58872_needit_needit_needittask_sla">b94ba52b9716211081a6bb46f053afc0</view>
         <where_clause>t_sys_id=p_u_needit</where_clause>
     </sys_db_view_table>
 </record_update>

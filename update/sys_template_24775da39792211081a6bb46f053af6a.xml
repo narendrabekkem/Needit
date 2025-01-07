@@ -28,7 +28,7 @@
         <sys_updated_on>2023-09-12 09:11:20</sys_updated_on>
         <table>x_58872_needit_needit_task</table>
         <template>priority=4^state=1^short_description=Install the procured = addition^EQ</template>
-        <user display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
         <view/>
     </sys_template>
 </record_update>

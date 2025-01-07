@@ -60,7 +60,7 @@
         <update_guid_history>3cf19b0b95dd2110143efde9af3cf3e3:0,7b4cce812b412d10aad2a5ef1de16d20:-371500725,136230766bb8e110a853f10bccc8b1f6:0,75694f5295b4a110b187a8a10dbd1573:0,05a8c712beb4a1102ab46e27532ca687:-371500725,584bbe923974a110fe4f4236ec0865fc:0,a49a3e521b74a110d5615d68318fc066:0,0289fedeaa34a11015e3e88987c620f7:1758544788,b48f22969534a110676367ef21dc1dee:0,8b5da6d2de34a1109dee21ca4319f763:0,b2daeade40f0a11027573ae61c2ec802:-371500725,2d9ae2de4ff0a1105daacd47b9a78e9f:0,8ed5c6fe41e8e910d7d4060d9f339949:-371500725,3dbd7df6e7e8e9101a5b87dc58b588ab:0,a93cf576f4e8e910d21910dfee0d6748:-371500725,5f716fead9a0e910f6d2e25be549ab51:0,3043a401fa6065109e2f699c8661fbfe:0,3879e0142ba4a1105e94a6adc51ffbbd:0,beaa0cd48f24a110c4bb4dc2d75ca22a:0,51cf790c522c6110b8ae73b8242f4997:-703264075</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_58872_needit_needit.x_58872_needit.admin">ae88c0a9976a211081a6bb46f053af95</sys_audit_delete>
+        <sys_audit_delete display_value="">ae88c0a9976a211081a6bb46f053af95</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-01 11:10:32</sys_created_on>

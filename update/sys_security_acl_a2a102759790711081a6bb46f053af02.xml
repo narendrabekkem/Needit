@@ -3,11 +3,15 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Allow report_view for records in x_58872_needit_needit_needittask, for users with role x_58872_needit.admin.</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit_needittask_sla</name>
         <operation display_value="report_view">0997ab83733303005978e4b9cdf6a7b9</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-28 14:29:20</sys_created_on>

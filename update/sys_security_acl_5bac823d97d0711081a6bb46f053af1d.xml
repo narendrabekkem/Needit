@@ -3,11 +3,15 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>This ACL Prevent users from selcting fields from Given table while creating templates and Also disables addition of template from form view</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit_task</name>
         <operation display_value="save_as_template">e5a2b9c50a0a0bc5005dd4a3096ac37b</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-28 15:16:44</sys_created_on>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>x_58872_needit_needit</collection>
-        <email_layout display_value="Default Header Footer Layout">bfc0ad789718f11081a6bb46f053afcf</email_layout>
+        <email_layout display_value="">bfc0ad789718f11081a6bb46f053afcf</email_layout>
         <message/>
         <message_html><![CDATA[<div style="text-align: center; padding-bottom: 24px; line-height: 36px; border-bottom: 1px solid #dadde2;"><span style="font-size: 18pt;">We received your request</span></div>
 <p style="font-size: 12pt; margin-top: 24px;">${mail_script:request_greetings}</p>

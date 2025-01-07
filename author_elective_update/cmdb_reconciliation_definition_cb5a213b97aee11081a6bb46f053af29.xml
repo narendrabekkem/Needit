@@ -76,7 +76,7 @@
         <update_guid_history>9251365a26baa550fef09ee9fe633a60:0,18d0fe968dbaa550d4759ffbf9829072:-548316557,c75ae17b9eaee1107b85cdc51b22ba5c:921705831</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Hardware rule by ServiceNow">8186479f979fa91081a6bb46f053af11</sys_audit_delete>
+        <sys_audit_delete display_value="">8186479f979fa91081a6bb46f053af11</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-13 18:17:01</sys_created_on>

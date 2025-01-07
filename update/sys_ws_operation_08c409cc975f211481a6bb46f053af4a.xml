@@ -42,7 +42,7 @@
     }
 
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_58872_needit/v3/needit/updatemultiplefields/{number}</operation_uri>
+        <operation_uri>/api/x_58872_needit/v3/needitapi/updatemultiplefields/{number}</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <relative_path>/updatemultiplefields/{number}</relative_path>
@@ -63,7 +63,7 @@
         <sys_update_name>sys_ws_operation_08c409cc975f211481a6bb46f053af4a</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-06-03 12:31:48</sys_updated_on>
-        <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
+        <web_service_definition display_value="Needit API">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v3">8cc4454c975f211481a6bb46f053af9e</web_service_version>
     </sys_ws_operation>
 </record_update>

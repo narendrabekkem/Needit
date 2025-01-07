@@ -60,7 +60,7 @@
         <update_guid_history>e761fe5a88baa550f9188729c2b1efc2:0,86b0f296c9baa550b4ef170a8178f762:1257339461,433757446be621104b1edc535d694559:0,987664e8e329211048f7bdc0c736f0ee:1522801607</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="NeeditLeadTime.x_58872_needit.needit_user">691b30ec9723e15081a6bb46f053af28</sys_audit_delete>
+        <sys_audit_delete display_value="">691b30ec9723e15081a6bb46f053af28</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-17 05:20:15</sys_created_on>

@@ -17,7 +17,7 @@
         <sys_updated_on>2023-06-13 11:28:08</sys_updated_on>
         <table>task_sla</table>
         <variable_prefix>ts</variable_prefix>
-        <view display_value="x_58872_needit_needit_needittask">b94ba52b9716211081a6bb46f053afc0</view>
+        <view display_value="x_58872_needit_needit_needittask_sla">b94ba52b9716211081a6bb46f053afc0</view>
         <where_clause>t_sys_id=ts_task || p_sys_id=ts_task</where_clause>
     </sys_db_view_table>
 </record_update>

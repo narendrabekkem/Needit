@@ -42,7 +42,7 @@
         <update_guid_history>6527b2885536a5106e2fe379641a552c:90256633</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="common_comments.Assign Some Work to Team">0a577a889736a51081a6bb46f053af66</sys_audit_delete>
+        <sys_audit_delete display_value="">0a577a889736a51081a6bb46f053af66</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-09 18:19:05</sys_created_on>

@@ -60,7 +60,7 @@
         <update_guid_history>ab61fe5a83baa55042cf3cdd8270d8df:0,f4d032d6babaa5509837cae247e1956b:1509068946,b8f19b0b0ddd2110c832aaf56e0803df:0,b75c82c125412d1049f3a1644d29a8c6:1509068946,93623076a5b8e11000fc8a2334765bf2:0,f1694f5273b4a1101fb27422d0cdf56f:0,e9b88b12cfb4a11006a41f9dbfcaddf9:1509068946,d44bbe927374a110a76991b6e0818ff8:0,209a3e523774a110a394341e1edbee61:0,7089bede9734a11042be3ee96dcadfeb:-1435699886,708f22961f34a110b77c086a4d49b2de:0,0b5da6d26834a1109dc50ec46f16305f:0,1beaeede42f0a110719b1dac86aebc01:1509068946,ad9ae2de3ef0a110c656adadc9c8829b:0,e7d50afea2e8e9104606275103af4efe:1509068946,bdbd7df66ce8e910110379d75e2258a7:0,934c3d7666e8e9107d2aca8dfe373005:1509068946,17716fea4fa0e9104b7225158dc21f41:0,7c43a40130606510258c9777d21413d4:0,bc79e01406a4a110429ca20195346eb9:-2035270610</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_58872_needit_needit_task.x_58872_needit.needit_task_user">bbe941db97ac7d1081a6bb46f053af7f</sys_audit_delete>
+        <sys_audit_delete display_value="">bbe941db97ac7d1081a6bb46f053af7f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-08-14 12:31:12</sys_created_on>

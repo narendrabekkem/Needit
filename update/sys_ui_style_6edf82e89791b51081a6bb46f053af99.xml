@@ -16,6 +16,7 @@
         <sys_update_name>sys_ui_style_6edf82e89791b51081a6bb46f053af99</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-12 11:23:18</sys_updated_on>
+        <themed_style/>
         <value>13</value>
     </sys_ui_style>
     <sys_translated_text action="delete_multiple" query="documentkey=6edf82e89791b51081a6bb46f053af99"/>

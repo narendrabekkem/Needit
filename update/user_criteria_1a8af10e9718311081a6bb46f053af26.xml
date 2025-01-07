@@ -16,6 +16,7 @@
 * Don't use `gs.getUser()` or  `gs.getUserID()`, 
 * instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
 */]]></script>
+        <short_description/>
         <sys_class_name>user_criteria</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-29 08:37:16</sys_created_on>

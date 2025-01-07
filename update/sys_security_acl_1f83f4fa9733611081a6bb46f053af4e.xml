@@ -3,11 +3,15 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Any User can create New Needit Record</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit</name>
         <operation display_value="create">create</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-06 14:49:21</sys_created_on>

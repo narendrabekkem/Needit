@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_58872_needit_needit_assignment_lookup">
     <x_58872_needit_needit_assignment_lookup action="INSERT_OR_UPDATE">
         <active>true</active>
-        <assignment_group display_value="SAP-HR Payroll" name="SAP-HR Payroll">ddce1ee89734711081a6bb46f053af68</assignment_group>
+        <assignment_group display_value="">ddce1ee89734711081a6bb46f053af68</assignment_group>
         <order>100</order>
+        <priority/>
         <request_type>hr</request_type>
         <sys_class_name>x_58872_needit_needit_assignment_lookup</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>

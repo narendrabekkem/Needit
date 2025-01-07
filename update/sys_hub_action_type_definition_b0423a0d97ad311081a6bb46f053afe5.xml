@@ -6,17 +6,21 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>get_variables_from_a_record_with_variables</internal_name>
         <label_cache>[{"name":"{{action.record}}","label":"action➛Record","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69964c2d-827e-4fd9-80d4-9a8a35f4ddba"}},{"name":"{{action.sys_id}}","label":"action➛Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysid}}","label":"action➛Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6f957665-55a6-47e2-b458-8e588c47c5fa"}},{"name":"{{step[5609479e-4c49-4637-afc9-aa590422e068].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d9b580bf-c328-4bee-baa8-b7c9203f221b].variables}}","label":"step➛Script step➛Variables","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f76a2c0c-a732-4fe8-a853-19e5b9f11410"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>Get Variables from a Record with Variables</name>
         <natlang/>
         <outputs/>
@@ -182,18 +186,6 @@ outputs.variables= (JSON.stringify(ob));
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6294ba4197ed311081a6bb46f053afb1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>6294ba4197ed311081a6bb46f053afb1</id>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 13:33:42</sys_created_on>
-        <sys_id>2294ba4197ed311081a6bb46f053afe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 13:33:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>Record</field>
         <id>6294ba4197ed311081a6bb46f053afb1</id>
         <sys_created_by>narendranath.reddy</sys_created_by>
@@ -217,20 +209,9 @@ outputs.variables= (JSON.stringify(ob));
         <table>var__m_sys_hub_step_ext_input_6294ba4197ed311081a6bb46f053afb1</table>
         <value>{{action.record}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6294ba4197ed311081a6bb46f053afb1</id>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 13:33:42</sys_created_on>
-        <sys_id>e294ba4197ed311081a6bb46f053afe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 13:33:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6294ba4197ed311081a6bb46f053afb1^id=6294ba4197ed311081a6bb46f053afb1"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6294ba4197ed311081a6bb46f053afb1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6294ba4197ed311081a6bb46f053afb1"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6294ba4197ed311081a6bb46f053afb1^sys_idNOT INe694ba4197ed311081a6bb46f053afb8"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -414,11 +395,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:33:42</sys_created_on>
         <sys_id>ee94ba4197ed311081a6bb46f053afbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variables</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_6294ba4197ed311081a6bb46f053afb1_variables_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:33:42</sys_updated_on>
         <url/>
@@ -486,6 +467,7 @@ outputs.variables= (JSON.stringify(ob));
         <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
         <value/>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad14ba0197ed311081a6bb46f053af4d"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ad14ba0197ed311081a6bb46f053af4d"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=ad14ba0197ed311081a6bb46f053af4d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ad14ba0197ed311081a6bb46f053af4d^sys_idNOT IN2d14ba0197ed311081a6bb46f053af54"/>
@@ -960,11 +942,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:31:26</sys_created_on>
         <sys_id>ad14ba0197ed311081a6bb46f053af47</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Sys Id</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b0423a0d97ad311081a6bb46f053afe5_sysid_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:31:26</sys_updated_on>
         <url/>
@@ -983,11 +965,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:31:26</sys_created_on>
         <sys_id>e914ba0197ed311081a6bb46f053af4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b0423a0d97ad311081a6bb46f053afe5_table_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:31:26</sys_updated_on>
         <url/>
@@ -1008,11 +990,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:34:30</sys_created_on>
         <sys_id>16c4728197ed311081a6bb46f053af8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>variables</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b0423a0d97ad311081a6bb46f053afe5_variables_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:34:30</sys_updated_on>
         <url/>
@@ -1031,11 +1013,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:33:42</sys_created_on>
         <sys_id>aa94ba4197ed311081a6bb46f053aff1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b0423a0d97ad311081a6bb46f053afe5___action_status___en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:33:42</sys_updated_on>
         <url/>
@@ -1054,11 +1036,11 @@ outputs.variables= (JSON.stringify(ob));
         <sys_created_on>2023-09-26 13:33:42</sys_created_on>
         <sys_id>e694fa4197ed311081a6bb46f053af29</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b0423a0d97ad311081a6bb46f053afe5___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 13:33:42</sys_updated_on>
         <url/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_58872_needit_needit_assignment_lookup">
     <x_58872_needit_needit_assignment_lookup action="INSERT_OR_UPDATE">
         <active>true</active>
-        <assignment_group display_value="Local Security Fornebu" name="Local Security Fornebu">f8cedae89734711081a6bb46f053af7b</assignment_group>
+        <assignment_group display_value="">f8cedae89734711081a6bb46f053af7b</assignment_group>
         <order>100</order>
         <priority>4</priority>
         <request_type>facilities</request_type>

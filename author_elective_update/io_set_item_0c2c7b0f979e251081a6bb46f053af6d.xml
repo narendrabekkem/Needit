@@ -42,7 +42,7 @@
         <update_guid_history>882cfb0fd59e25106f78d1e00ac066c8:557114363</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Summary.Assign Some Work to Team">b5d78c979712651081a6bb46f053afb5</sys_audit_delete>
+        <sys_audit_delete display_value="">b5d78c979712651081a6bb46f053afb5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 11:21:10</sys_created_on>

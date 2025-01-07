@@ -6,7 +6,7 @@
         <condition/>
         <conditional>false</conditional>
         <connection_override/>
-        <data_source display_value="Oracle DB">5e809535978e211081a6bb46f053aff0</data_source>
+        <data_source display_value="">5e809535978e211081a6bb46f053aff0</data_source>
         <entered_time/>
         <map/>
         <max_drift/>
@@ -33,7 +33,7 @@
         <pre_script/>
         <pre_script_bool>false</pre_script_bool>
         <record_source>regular</record_source>
-        <run_as display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

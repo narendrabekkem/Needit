@@ -28,7 +28,7 @@
         <sys_updated_on>2023-07-29 04:16:51</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <template>active=true^approval=not requested^opened_at=2023-04-25 16:11:42^opened_by=6816f79cc0a8016401c5a33be04be441^priority=4^state=13^short_description=This is short description added from template^EQ</template>
-        <user display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
         <view/>
     </sys_template>
 </record_update>

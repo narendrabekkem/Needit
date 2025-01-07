@@ -3,6 +3,7 @@
         <active>true</active>
         <assignment_group display_value="Change Management" name="Change Management">a715cd759f2002002920bde8132e7018</assignment_group>
         <order>100</order>
+        <priority/>
         <request_type>legal</request_type>
         <sys_class_name>x_58872_needit_needit_assignment_lookup</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>

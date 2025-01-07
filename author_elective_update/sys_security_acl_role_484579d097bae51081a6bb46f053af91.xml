@@ -60,7 +60,7 @@
         <update_guid_history>6f61fe5a83baa5506c9828c5b9f3faca:0,8ab0f296e2baa550cdaff6b9e890826a:1566656277,8c4579d046bae510f3a40f0127ab6693:-1160718441</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="NeeditState.x_58872_needit.needit_user">23faf4ec9723e15081a6bb46f053af03</sys_audit_delete>
+        <sys_audit_delete display_value="">23faf4ec9723e15081a6bb46f053af03</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-17 05:19:50</sys_created_on>

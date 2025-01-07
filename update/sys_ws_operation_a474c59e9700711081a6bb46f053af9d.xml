@@ -3,7 +3,7 @@
         <active>true</active>
         <consumes>application/json,application/xml,text/xml</consumes>
         <consumes_customized>false</consumes_customized>
-        <default_operation_uri>/api/x_58872_needit/needit/updatemultiplefields/{number}</default_operation_uri>
+        <default_operation_uri>/api/x_58872_needit/needitapi/updatemultiplefields/{number}</default_operation_uri>
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>GET</http_method>
         <name>NeeditUpdateMultipleFields (v2)</name>
@@ -12,7 +12,7 @@
     // implement resource here
 
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_58872_needit/v2/needit/updatemultiplefields/{number}</operation_uri>
+        <operation_uri>/api/x_58872_needit/v2/needitapi/updatemultiplefields/{number}</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <relative_path>/updatemultiplefields/{number}</relative_path>
@@ -33,7 +33,7 @@
         <sys_update_name>sys_ws_operation_a474c59e9700711081a6bb46f053af9d</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-07-17 13:02:53</sys_updated_on>
-        <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
+        <web_service_definition display_value="Needit API">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v2">e5a119ac97f5611081a6bb46f053af18</web_service_version>
     </sys_ws_operation>
 </record_update>

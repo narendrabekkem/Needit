@@ -7,6 +7,7 @@
         <client_callable>false</client_callable>
         <description>Class Less Script Include. Can be invoked just by calling function with syntax "validateEmailAddress()". &#13;
 1. If calling from other scopes using syntax "scope_string.validateEmailAddress()" example "x_80222_innovate.validateEmailAddress()" provided accessible from all application scopes and caller access permits.</description>
+        <mobile_callable>false</mobile_callable>
         <name>validateEmailAddress</name>
         <script><![CDATA[function validateEmailAddress(emailStr){
     // Use JavaScript coercion to guarantee emailStr is a string

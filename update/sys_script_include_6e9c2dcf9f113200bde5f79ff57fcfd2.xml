@@ -18,6 +18,7 @@ function callbackfunction(response)&#13;
 //what to do with response&#13;
 }&#13;
 </description>
+        <mobile_callable>false</mobile_callable>
         <name>GetEmailAddress</name>
         <script><![CDATA[var GetEmailAddress = Class.create();
 GetEmailAddress.NEW = 5;

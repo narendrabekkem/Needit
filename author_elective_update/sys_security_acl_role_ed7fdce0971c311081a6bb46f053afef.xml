@@ -42,7 +42,7 @@
         <update_guid_history>297fdce0ee1c31102835be286a22b6f1:1267866598</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_58872_needit_dummy_table.x_58872_needit.dummy_table_user">7b8f5424971c311081a6bb46f053af73</sys_audit_delete>
+        <sys_audit_delete display_value="">7b8f5424971c311081a6bb46f053af73</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-24 10:07:04</sys_created_on>

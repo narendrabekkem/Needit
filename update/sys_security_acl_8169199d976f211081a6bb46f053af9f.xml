@@ -3,12 +3,16 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Allow write for records in x_58872_needit_needit, for any user if record is new.</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit</name>
         <operation display_value="write">write</operation>
         <script><![CDATA[answer=current.isNewRecord();
 gs.addInfoMessage(root_rule+'evaluated true'+answer);]]></script>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-06-19 15:30:44</sys_created_on>

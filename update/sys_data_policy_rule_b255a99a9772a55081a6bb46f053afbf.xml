@@ -6,7 +6,7 @@
         <sys_class_name>sys_data_policy_rule</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-16 12:07:25</sys_created_on>
-        <sys_data_policy display_value="">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
+        <sys_data_policy display_value="Make Other Field Mandatory">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
         <sys_id>b255a99a9772a55081a6bb46f053afbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>assignment_group</sys_name>

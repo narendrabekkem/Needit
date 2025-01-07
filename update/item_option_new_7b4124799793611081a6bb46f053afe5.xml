@@ -16,7 +16,7 @@
         <display_title>false</display_title>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
-        <dynamic_ref_qual display_value="Myself">3985188797f1311081a6bb46f053af16</dynamic_ref_qual>
+        <dynamic_ref_qual display_value="">3985188797f1311081a6bb46f053af16</dynamic_ref_qual>
         <dynamic_value_dot_walk_path/>
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>

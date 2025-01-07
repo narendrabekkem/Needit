@@ -14,7 +14,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Generic Catalog No approval flow">dde080d797de251081a6bb46f053af42</flow_designer_flow>
+        <flow_designer_flow display_value="">dde080d797de251081a6bb46f053af42</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -22,6 +22,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -38,12 +39,13 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=92cbffcb979e251081a6bb46f053af82&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -78,6 +80,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

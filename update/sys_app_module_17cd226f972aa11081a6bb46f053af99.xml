@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>x_58872_needit_needit.do?sys_id=-1&amp;sysparm_template=Needit Generic Template</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>

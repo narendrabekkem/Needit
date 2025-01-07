@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Hardware" name="cmdb_ci_hardware">7d92677f753011108c8b143dd0c59f70</super_class>
+        <super_class display_value="Hardware" name="cmdb_ci_hardware">0216f4bd7d31311076daf29f52070d52</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-14 14:59:15</sys_created_on>

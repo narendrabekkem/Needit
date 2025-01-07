@@ -17,6 +17,7 @@
         <messages/>
         <name>Fetch User Mobile number</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading || newValue == '') {
       return;
@@ -50,6 +51,7 @@ function callback(response)
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

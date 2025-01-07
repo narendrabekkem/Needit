@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
+        <access_method/>
         <col_name_string>short_description</col_name_string>
-        <index_col_name element="short_description" name="kb_knowledge">bba56bf775b011108c8b143dd0c59fd6</index_col_name>
+        <index_col_name element="short_description" name="kb_knowledge">7428fc797db1311076daf29f52070d26</index_col_name>
         <logical_table_name>kb_knowledge</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>system</sys_created_by>
@@ -15,7 +16,7 @@
         <sys_update_name>sys_index_kb_knowledge_short_description</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-06-28 13:28:58</sys_updated_on>
-        <table display_value="Knowledge" name="kb_knowledge">77a56bf775b011108c8b143dd0c59fc8</table>
+        <table display_value="Knowledge" name="kb_knowledge">7028fc797db1311076daf29f52070d17</table>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

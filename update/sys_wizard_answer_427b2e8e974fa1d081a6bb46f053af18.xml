@@ -6,7 +6,7 @@
         <dependent_value/>
         <element/>
         <name>Network Templates</name>
-        <next_question display_value="Needit Interceptor" name="Needit Interceptor">2718398697c7a1d081a6bb46f053af99</next_question>
+        <next_question display_value="">2718398697c7a1d081a6bb46f053af99</next_question>
         <order>100</order>
         <payload_name/>
         <question display_value="New Change with Template" name="New Change with Template">384be28e974fa1d081a6bb46f053afa2</question>

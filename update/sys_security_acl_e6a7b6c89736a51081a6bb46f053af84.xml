@@ -3,13 +3,17 @@
         <active>true</active>
         <admin_overrides>false</admin_overrides>
         <advanced>true</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Allow list_edit for assignment_group in x_58872_needit_needit, for users with role admin, and if the ACL script returns true.</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit.assignment_group</name>
         <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
         <script><![CDATA[(gs.getUser().isMemberOf(current.assignment_group.name.toString()));
 //above statement just evaluates to true or false and it works.
 (function(){return true;})();]]></script>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-09 18:22:09</sys_created_on>

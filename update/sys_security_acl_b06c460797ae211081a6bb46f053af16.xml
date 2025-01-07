@@ -3,8 +3,11 @@
         <active>true</active>
         <admin_overrides>false</admin_overrides>
         <advanced>true</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description/>
+        <local_or_existing/>
         <name>Restrict NeedIt APi consumption by only needit users</name>
         <operation display_value="execute">execute</operation>
         <script><![CDATA[var gr= new GlideRecord('sys_user_role');
@@ -17,6 +20,7 @@ while (gr.next())
 				answer= true;
 			}
 	}]]></script>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-05-06 12:38:14</sys_created_on>

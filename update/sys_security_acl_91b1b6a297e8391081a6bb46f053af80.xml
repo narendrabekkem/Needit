@@ -3,8 +3,11 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description/>
+        <local_or_existing/>
         <name>x_58872_needit_needit</name>
         <operation display_value="edit_task_relations">b718b0e2c0a80204005b2705d3b6a0a0</operation>
         <script><![CDATA[answer=false;
@@ -12,6 +15,7 @@ if(gs.hasRole('admin')||(gs.hasRole('itil')&&gs.getUser().isMemberOf(current.ass
 	{
 		answer=true;
 	}]]></script>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-08-12 12:11:21</sys_created_on>

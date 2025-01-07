@@ -9,7 +9,7 @@
         <next_question/>
         <order>300</order>
         <payload_name/>
-        <question display_value="Needit Interceptor" name="Needit Interceptor">2718398697c7a1d081a6bb46f053af99</question>
+        <question display_value="">2718398697c7a1d081a6bb46f053af99</question>
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>

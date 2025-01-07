@@ -58,7 +58,7 @@
         <update_guid_history>b306c090406e21104adbf96ac270af4a:0,ed65c8dc762e2110c3b310f6f915a84f:1300605119,40ea5f4c4ce62110b1a1a2597fd137c7:0,3ee91f888de62110fe6102e2c9e31bfc:1300605119,5837df044ae62110af9c916b57a6f1c4:0,af66938099e62110716a14ba266d5fa0:1300605119,f96adf2c31a161101bbbf211345753ed:-1548382133</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Needit Request.Users with 'Admin' Role">9765dce197ea211081a6bb46f053af0e</sys_audit_delete>
+        <sys_audit_delete display_value="">9765dce197ea211081a6bb46f053af0e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-01 12:06:50</sys_created_on>

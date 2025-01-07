@@ -20,6 +20,7 @@
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path>article.csv</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -32,6 +33,7 @@
         <jdbc_password/>
         <jdbc_server/>
         <jdbc_user_name/>
+        <jdbcprobe_result_set_rows/>
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
@@ -45,6 +47,7 @@
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script/>
         <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]></parsing_script>
         <properties/>
         <query>All Rows from Table</query>
@@ -55,6 +58,7 @@
         <scp_port/>
         <scp_server/>
         <scp_user_name/>
+        <sheet_name/>
         <sheet_number>1</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>

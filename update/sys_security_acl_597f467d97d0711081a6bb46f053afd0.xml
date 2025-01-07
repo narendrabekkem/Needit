@@ -3,11 +3,15 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>This ACL prevents user from adding Target field to list view</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit.u_target</name>
         <operation display_value="add_to_list">394af8150a0a0b270096f5ac9d6bac47</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>narendranath.reddy</sys_created_by>
         <sys_created_on>2023-07-28 15:29:49</sys_created_on>

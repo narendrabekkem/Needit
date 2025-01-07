@@ -28,7 +28,7 @@
         <sys_updated_on>2023-05-17 17:48:26</sys_updated_on>
         <table>incident</table>
         <template>u_template=Generic FW Template^short_description=Generic Firewall Incident^assignment_group=287ebd7da9fe198100f92cc8d1d2154e^EQ</template>
-        <user display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
         <view/>
     </sys_template>
 </record_update>
