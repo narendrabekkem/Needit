@@ -6,7 +6,6 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <mobile_callable>false</mobile_callable>
         <name>NeeditFunctions</name>
         <script><![CDATA[function NeeditStatesObject() {
 //setting object values for function

@@ -17,7 +17,6 @@
         <internal_name>parsing_inbound_email</internal_name>
         <label_cache>[{"name":"Inbound Email_1.user","label":"Trigger - Inbound Email➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.subject","label":"Trigger - Inbound Email➛Subject","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"d5b34862-5cea-4e3f-bd89-37882e2a61c0.requested_item","label":"1 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}},{"name":"27c5982f-8185-4c4f-8ae5-232b7285f66f.__action_status__.message","label":"3➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1228b8d2-dda8-4ed9-98c6-a083eedad29d.variables","label":"2 - Get Variables from a Record with Variables➛variables","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2345762e-5fc9-4019-9b7e-cb9c61e05bbd"}},{"name":"d5b34862-5cea-4e3f-bd89-37882e2a61c0.requested_item.sys_id","label":"1 - Submit Catalog Item Request➛Requested Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"}]</label_cache>
         <master_snapshot>9d952641976d311081a6bb46f053af04</master_snapshot>
-        <master_snapshot_digest/>
         <name>Parsing Inbound Email</name>
         <natlang/>
         <outputs/>
@@ -44,9 +43,8 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_332362099769311081a6bb46f053af7f</sys_update_name>
         <sys_updated_by>narendrabekkem</sys_updated_by>
-        <sys_updated_on>2024-12-19 07:39:27</sys_updated_on>
+        <sys_updated_on>2025-01-15 15:11:16</sys_updated_on>
         <type>flow</type>
-        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=332362099769311081a6bb46f053af7f"/>
     <sys_variable_value action="delete_multiple" query="document_key=332362099769311081a6bb46f053af7f"/>
@@ -72,6 +70,54 @@
         <target_table/>
     </sys_flow_email_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=332362099769311081a6bb46f053af7f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f^sys_idNOT IN5785a241976d311081a6bb46f053af61"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Parsing Inbound Email">332362099769311081a6bb46f053af7f</flow>
+        <name>Inbound Email</name>
+        <remote_sys_id/>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
+        <sys_id>5785a241976d311081a6bb46f053af61</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 14:14:26</sys_updated_on>
+        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>email</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5785a241976d311081a6bb46f053af61"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5785a241976d311081a6bb46f053af61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
+        <sys_id>9785a241976d311081a6bb46f053af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 12:27:56</sys_updated_on>
+        <value>subjectLIKEcreate need request</value>
+        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5785a241976d311081a6bb46f053af61</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
+        <sys_id>9f85a241976d311081a6bb46f053af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 12:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
+    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=332362099769311081a6bb46f053af7f^sys_idNOT IN332362099769311081a6bb46f053af82"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -680,54 +726,6 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d385a241976d311081a6bb46f053af58"/>
     <sys_hub_flow_output action="delete_multiple" query="model=332362099769311081a6bb46f053af7f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=332362099769311081a6bb46f053af7f"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f^sys_idNOT IN5785a241976d311081a6bb46f053af61"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Parsing Inbound Email">332362099769311081a6bb46f053af7f</flow>
-        <name>Inbound Email</name>
-        <remote_sys_id/>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
-        <sys_id>5785a241976d311081a6bb46f053af61</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 14:14:26</sys_updated_on>
-        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>email</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=5785a241976d311081a6bb46f053af61"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>5785a241976d311081a6bb46f053af61</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
-        <sys_id>9785a241976d311081a6bb46f053af62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 12:27:56</sys_updated_on>
-        <value>subjectLIKEcreate need request</value>
-        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>5785a241976d311081a6bb46f053af61</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:27:56</sys_created_on>
-        <sys_id>9f85a241976d311081a6bb46f053af62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 12:27:56</sys_updated_on>
-        <value/>
-        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
-    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f^sys_idNOT IN1b85a241976d311081a6bb46f053af6d,214ea6c197ad311081a6bb46f053af65,67c17ec997ad311081a6bb46f053af3f,c91dbac19721711081a6bb46f053afe4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1127,6 +1125,7 @@
         <sys_updated_on>2023-09-26 14:10:44</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c91dbac19721711081a6bb46f053afe4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f^sys_idNOT INabc17ec997ad311081a6bb46f053af2e,e7c17ec997ad311081a6bb46f053af37"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1225,7 +1224,6 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=e7c17ec997ad311081a6bb46f053af37"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e7c17ec997ad311081a6bb46f053af37"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e7c17ec997ad311081a6bb46f053af37"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=332362099769311081a6bb46f053af7f"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=332362099769311081a6bb46f053af7f"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=332362099769311081a6bb46f053af7f"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_332362099769311081a6bb46f053af7f^sys_idNOT IN1785a241976d311081a6bb46f053af5d,1b85a241976d311081a6bb46f053af57,9785a241976d311081a6bb46f053af3f,9b85a241976d311081a6bb46f053af42,9f85a241976d311081a6bb46f053af51,d785a241976d311081a6bb46f053af5a,db85a241976d311081a6bb46f053af54"/>
@@ -1434,10 +1432,57 @@
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:04</sys_updated_on>
         <type>flow</type>
-        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9d952641976d311081a6bb46f053af04"/>
     <sys_variable_value action="delete_multiple" query="document_key=9d952641976d311081a6bb46f053af04"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04^sys_idNOT INed952641976d311081a6bb46f053afa8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Parsing Inbound Email">9d952641976d311081a6bb46f053af04</flow>
+        <name>Inbound Email</name>
+        <remote_sys_id/>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
+        <sys_id>ed952641976d311081a6bb46f053afa8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 12:28:06</sys_updated_on>
+        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>email</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed952641976d311081a6bb46f053afa8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ed952641976d311081a6bb46f053afa8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
+        <sys_id>2d952641976d311081a6bb46f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
+        <value>subjectLIKEcreate need request</value>
+        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ed952641976d311081a6bb46f053afa8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
+        <sys_id>ed952641976d311081a6bb46f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
+        <value/>
+        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
+    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=9d952641976d311081a6bb46f053af04^sys_idNOT IN9d952641976d311081a6bb46f053af05"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -2046,54 +2091,6 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e5952641976d311081a6bb46f053af2d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=9d952641976d311081a6bb46f053af04"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9d952641976d311081a6bb46f053af04"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04^sys_idNOT INed952641976d311081a6bb46f053afa8"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Parsing Inbound Email">9d952641976d311081a6bb46f053af04</flow>
-        <name>Inbound Email</name>
-        <remote_sys_id/>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
-        <sys_id>ed952641976d311081a6bb46f053afa8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 12:28:06</sys_updated_on>
-        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>email</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ed952641976d311081a6bb46f053afa8"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>ed952641976d311081a6bb46f053afa8</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
-        <sys_id>2d952641976d311081a6bb46f053afa9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
-        <value>subjectLIKEcreate need request</value>
-        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>ed952641976d311081a6bb46f053afa8</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>narendranath.reddy</sys_created_by>
-        <sys_created_on>2023-09-26 12:28:05</sys_created_on>
-        <sys_id>ed952641976d311081a6bb46f053afa9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
-        <value/>
-        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
-    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04^sys_idNOT IN2d952641976d311081a6bb46f053afa5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2197,8 +2194,8 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2d952641976d311081a6bb46f053afa5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d952641976d311081a6bb46f053afa5"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9d952641976d311081a6bb46f053af04"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9d952641976d311081a6bb46f053af04"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=9d952641976d311081a6bb46f053af04"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04^sys_idNOT IN15952641976d311081a6bb46f053af22,19952641976d311081a6bb46f053af1a,25952641976d311081a6bb46f053af6f,91952641976d311081a6bb46f053af2a,ad952641976d311081a6bb46f053af39,ad952641976d311081a6bb46f053af41,ed952641976d311081a6bb46f053af31"/>
@@ -2219,7 +2216,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_target_table_name_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:04</sys_updated_on>
         <url/>
@@ -2242,7 +2239,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_body_text_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:04</sys_updated_on>
         <url/>
@@ -2265,7 +2262,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_target_record_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
         <url/>
@@ -2288,7 +2285,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_subject_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
         <url/>
@@ -2311,7 +2308,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_from_address_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
         <url/>
@@ -2334,7 +2331,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_user_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
         <url/>
@@ -2357,7 +2354,7 @@
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9d952641976d311081a6bb46f053af04_inbound_email_en</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-09-26 12:28:05</sys_updated_on>
         <url/>

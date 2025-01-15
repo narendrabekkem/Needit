@@ -41,18 +41,7 @@
         <sys_update_name>sys_web_service_ded3524397ee211081a6bb46f053af6b</sys_update_name>
         <sys_updated_by>narendrabekkem</sys_updated_by>
         <sys_updated_on>2025-01-03 20:44:24</sys_updated_on>
-        <wsdl>https://dev216183.service-now.com/x_58872_needit_NeeditList.do?WSDL</wsdl>
+        <wsdl>https://dev275146.service-now.com/x_58872_needit_NeeditList.do?WSDL</wsdl>
         <wsdl_compliance>false</wsdl_compliance>
     </sys_web_service>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>ded3524397ee211081a6bb46f053af6b</id>
-        <sys_created_by>narendrabekkem</sys_created_by>
-        <sys_created_on>2025-01-03 19:03:06</sys_created_on>
-        <sys_id>ed4b2e7683b616104751e270ceaad348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>narendrabekkem</sys_updated_by>
-        <sys_updated_on>2025-01-03 19:03:06</sys_updated_on>
-        <table>sys_web_service</table>
-        <use_es_latest>false</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

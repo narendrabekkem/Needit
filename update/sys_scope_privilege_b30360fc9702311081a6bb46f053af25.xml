@@ -16,7 +16,7 @@
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-10-20 04:50:43</sys_updated_on>
         <target_name>u_car_spare_parts</target_name>
-        <target_scope display_value="GlobalScopeChagnes">bd98deaf9765311081a6bb46f053af78</target_scope>
+        <target_scope display_value="">bd98deaf9765311081a6bb46f053af78</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

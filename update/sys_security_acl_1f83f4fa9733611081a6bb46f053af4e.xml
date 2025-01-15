@@ -3,9 +3,7 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <applies_to/>
         <condition/>
-        <decision_type>allow</decision_type>
         <description>Any User can create New Needit Record</description>
         <local_or_existing/>
         <name>x_58872_needit_needit</name>

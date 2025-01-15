@@ -3,9 +3,7 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
-        <applies_to/>
         <condition/>
-        <decision_type>allow</decision_type>
         <description>Allow read for records in x_58872_needit_needit, for users with role x_58872_needit.needit_user, and if the ACL script returns true.</description>
         <local_or_existing/>
         <name>x_58872_needit_needit</name>

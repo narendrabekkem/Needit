@@ -6,7 +6,6 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <mobile_callable>false</mobile_callable>
         <name>NeeditLeadTime</name>
         <script><![CDATA[var NeeditLeadTime = Class.create();
 NeeditLeadTime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {

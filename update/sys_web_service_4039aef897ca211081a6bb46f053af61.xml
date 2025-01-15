@@ -38,7 +38,7 @@
         <sys_update_name>sys_web_service_4039aef897ca211081a6bb46f053af61</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-08-26 12:50:57</sys_updated_on>
-        <wsdl>https://dev216183.service-now.com/x_58872_needit_Needit.do?WSDL</wsdl>
+        <wsdl>https://dev275146.service-now.com/x_58872_needit_Needit.do?WSDL</wsdl>
         <wsdl_compliance>false</wsdl_compliance>
     </sys_web_service>
 </record_update>

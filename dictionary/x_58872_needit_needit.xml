@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="hasLabels=true, email_client=true,live_feed=false" audit="true" db_object_id="0749c7522fb4a1100169a1fef699b62c" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
-                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
-                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
-            </choice>
-        </element>
-        <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element label="Color" max_length="40" name="color" type="color"/>
-        <element attributes="edge_encryption_enabled=true" label="Mobile Phone" max_length="40" name="mobile_phone" type="string"/>
-        <element label="Sub Stage" max_length="80" name="sub_stage" type="workflow"/>
-        <element attributes="target_field=u_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
-        <element attributes="edge_encryption_enabled=true" label="More Info" max_length="4000" name="more_info" type="journal_input"/>
-        <element label="Target" max_length="20" name="u_target" type="decimal"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Watchers" max_length="1024" name="watchers" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Phone" max_length="40" name="mobile_phone" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Sub Stage" max_length="80" name="sub_stage" type="workflow"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="allow_references=true" dependent="u_table_name_1" dependent_on_field="u_table_name_1" label="Field Name" max_length="80" name="u_field_name" type="field_name" use_dependent_field="true"/>
+        <element label="Color" max_length="40" name="color" type="color"/>
+        <element attributes="edge_encryption_enabled=true" label="More Info" max_length="4000" name="more_info" type="journal_input"/>
+        <element attributes="encode_utf8=false" dependent="u_requested_for" dependent_on_field="u_requested_for" label="Roles" max_length="32" name="roles" reference="sys_user_role" reference_floats="true" reference_qual="javascript: new GetRolesofUser().Getroles(current.u_requested_for)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element attributes="base_start=true" label="Table" max_length="80" name="u_table_name_1" type="table_name"/>
+        <element attributes="target_field=u_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
+        <element label="SLA Schedule" max_length="40" name="sla_schedule" reference="cmn_schedule" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Needit Requests" max_length="1024" name="u_needit_list" reference="x_58872_needit_needit" reference_qual="javascript: 'u_requested_for='+current.u_requested_for;" type="glide_list" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
-        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
-        <element attributes="encode_utf8=false" dependent="u_requested_for" dependent_on_field="u_requested_for" label="Roles" max_length="32" name="roles" reference="sys_user_role" reference_floats="true" reference_qual="javascript: new GetRolesofUser().Getroles(current.u_requested_for)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
-        <element attributes="allow_references=true" dependent="u_table_name_1" dependent_on_field="u_table_name_1" label="Field Name" max_length="80" name="u_field_name" type="field_name" use_dependent_field="true"/>
-        <element attributes="base_start=true" label="Table" max_length="80" name="u_table_name_1" type="table_name"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter, ref_ac_columns=email;first_name;manager,ref_ac_columns_search=true,tree_picker=true" dynamic_ref_qual="ed7444229778311081a6bb46f053af30" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" reference_qual="javascript:new x_58872_needit.NeeditUsers().getNeeditUsers()" type="reference" use_dependent_field="true" use_reference_qualifier="dynamic"/>
+        <element label="Target" max_length="20" name="u_target" type="decimal"/>
+        <element label="Mean Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element label="Stage" max_length="80" name="stage" type="workflow"/>
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal1"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
                 <element inactive_on_update="false" label="Human Resources 2" sequence="5" value="hr2"/>
-                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal2"/>
-                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal1"/>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="4" value="hr1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal2"/>
             </choice>
         </element>
-        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
-        <element label="Mean Duration" max_length="40" name="duration" type="glide_duration"/>
-        <element label="SLA Schedule" max_length="40" name="sla_schedule" reference="cmn_schedule" type="reference"/>
         <element function_definition="glidefunction: datediff( sys_updated_on,sys_created_on)" function_field="true" label="Time Elapsed from submit and last updated" max_length="40" name="time_elapsed_from_submit_and_last_updated" read_only="true" type="glide_duration"/>
-        <element label="Stage" max_length="80" name="stage" type="workflow"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter, ref_ac_columns=email;first_name;manager,ref_ac_columns_search=true,tree_picker=true" dynamic_ref_qual="ed7444229778311081a6bb46f053af30" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" reference_qual="javascript:new x_58872_needit.NeeditUsers().getNeeditUsers()" type="reference" use_dependent_field="true" use_reference_qualifier="dynamic"/>
+        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
     </element>
 </database>

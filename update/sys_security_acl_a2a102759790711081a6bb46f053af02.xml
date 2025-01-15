@@ -3,9 +3,7 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <applies_to/>
         <condition/>
-        <decision_type>allow</decision_type>
         <description>Allow report_view for records in x_58872_needit_needit_needittask, for users with role x_58872_needit.admin.</description>
         <local_or_existing/>
         <name>x_58872_needit_needit_needittask_sla</name>
